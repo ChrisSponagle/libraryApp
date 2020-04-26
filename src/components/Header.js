@@ -12,7 +12,6 @@ function Header() {
 }
 
 const screenWidth = Math.round(Dimensions.get('window').width);
-const screenHeight = Math.round(Dimensions.get('window').height);
 
 const styles = StyleSheet.create({
     headerContainer: {

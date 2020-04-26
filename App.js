@@ -1,18 +1,19 @@
 import React, { Component } from 'react';
 import { StyleSheet, Text, View  } from 'react-native';
 import Header from './src/components/Header';
+import ListContainer from './src/components/ListContainer';
 
 export default class App extends Component {
 
   state = {
-    books: ''
+    bookData: []
   }
   componentDidMount() {
   
     fetch('http://192.168.0.46:4000/posts')
       .then((response) =>  response.json())
       .then((json) => { 
-        console.log("JSON", json)   
+        this.setState({bookData: json})  
       })
       .catch((error) => {
         console.error(error);
@@ -20,10 +21,11 @@ export default class App extends Component {
   }
 
   render() {
-
+    const { bookData } = this.state
     return (
       <View style={styles.container}>
         <Header />
+        <ListContainer bookData={bookData}/>
       </View>
     );
   }
