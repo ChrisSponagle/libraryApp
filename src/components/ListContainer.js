@@ -31,7 +31,6 @@ export default class ListContainer extends Component {
             filteredAuthor.push(item) : null
         })
         this.setState({bookData: filteredAuthor})
-        console.log("HOW", selectedAuthor)
         this.renderAuthors(this.state.bookData, selectedAuthor)
     }
 
@@ -44,7 +43,7 @@ export default class ListContainer extends Component {
         const onlyAuthors = [...new Set(authors)]
         return onlyAuthors.map((item, index) => {
             return (
-                <AuthorList key={index} index={index} author={item} filterAuthor={this.filterAuthor} selectedAuthor={this.state.selectedAuthor}/>
+                <AuthorList key={index} author={item} filterAuthor={this.filterAuthor} selectedAuthor={this.state.selectedAuthor}/>
             )
         })
     }

@@ -5,7 +5,9 @@ import { View, Text, StyleSheet, Dimensions, TouchableOpacity } from 'react-nati
         let time;
         time = props.item.publishedAt.split('T', 2)
         return (
-            <TouchableOpacity style={styles.itemListContainer} onPress={() => this.props.navigation.navigate('CurrentChallenges')}>
+            <TouchableOpacity style={styles.itemListContainer} 
+            // onPress={() => this.props.navigation.navigate('DetailedInfo')}
+            >
                 <View style={styles.itemContainer}>
                     <Text style={styles.listItem}>Title: {props.item.title}</Text>
                     <Text style={styles.listItem}>Author: {props.item.author.name}</Text>
