@@ -1,26 +1,51 @@
-import React from 'react';
-import { View, Text, StyleSheet, Dimensions } from 'react-native'
+import React, { Component } from 'react';
+import { View, Text, StyleSheet, Dimensions, TouchableOpacity } from 'react-native'
         
     function ItemList(props) {
-        const { item } = props
+        let time;
+        time = props.item.publishedAt.split('T', 2)
         return (
-            <View>
-                <View>
-                    <Text style={styles.listItem}>Title: {item.title}</Text>
-                    <Text style={styles.listItem}>Author: {item.author.name}</Text>
-                    <Text style={styles.listItem}>Summary: </Text>
+            <TouchableOpacity style={styles.itemListContainer} onPress={() => this.props.navigation.navigate('CurrentChallenges')}>
+                <View style={styles.itemContainer}>
+                    <Text style={styles.listItem}>Title: {props.item.title}</Text>
+                    <Text style={styles.listItem}>Author: {props.item.author.name}</Text>
+                    <Text style={styles.listItem}>Summary: {props.item.body.substring(1, 25).substring(-1, 25)}...</Text>
                 </View>
-                <View>
-                    <Text style={styles.listItem}>{item.publishedAt}</Text>
+                <View style={styles.timeContainer}>
+                    <Text style={styles.listItem}>{time[0]}</Text>
+                    <Text style={styles.listItem}>{time[1].substring(-1, 5)}</Text>
                 </View>
-            </View>
+            </TouchableOpacity>
         )
     }
 
+const screenWidth = Math.round(Dimensions.get('window').width);
+
 const styles = StyleSheet.create({
+    itemListContainer: {
+        flexDirection: 'row',
+        width: screenWidth - 50,
+        padding: 10,
+        marginTop: 15,
+        backgroundColor: '#FFF',
+        justifyContent: 'space-between',
+        borderRadius: 4,
+        elevation: 5,
+        shadowColor: '#000',
+        shadowOffset: { width: 0, height: 1 },
+        shadowOpacity: 0.8,
+        shadowRadius: 1
+    },
+    itemContainer: {
+        height: 60,
+        overflow: 'hidden'
+    },
     listItem: {
-        fontSize: 20, 
-        color: 'black'
+        fontSize: 15, 
+        color: 'black',
+    },
+    timeContainer: {
+        alignItems: 'flex-end'
     }
 })
 

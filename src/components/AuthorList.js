@@ -1,22 +1,59 @@
-import React from 'react';
-import { View, Text, StyleSheet, Dimensions } from 'react-native'
+import React, { PureComponent } from 'react';
+import { TouchableOpacity, Text, StyleSheet, Dimensions, Alert } from 'react-native'
 
-    function AuthorList(props) {
-        const { author } = props
-        return (
-            <View>
-                <View>
+    export default class AuthorList extends PureComponent {
+        constructor(props) {
+            super(props);
+            
+            this.state={
+                selectedAuthor: ''
+            }
+            
+            this.selectAuthor = this.selectAuthor.bind(this)
+        }
+
+        selectAuthor(author) {
+            this.setState({
+                selectedAuthor: author
+            })
+            this.props.filterAuthor(author)
+        }
+   
+        render() {
+        const { author, selectedAuthor } = this.props
+            return (
+                <TouchableOpacity onPress={() => this.selectAuthor(author)} style={author === this.props.selectedAuthor ? styles.activeAuthorItem : styles.inActiveAuthorItem}>
                     <Text style={styles.listItem}>{author}</Text>
-                </View>
-            </View>
-        )
+                </TouchableOpacity>
+            )
+        }
     }
+
+const screenWidth = Math.round(Dimensions.get('window').width);
 
 const styles = StyleSheet.create({
+    activeAuthorItem: {
+        backgroundColor: '#18A0FB',
+        padding: 5,
+        paddingTop: 10,
+        paddingBottom: 10,
+        borderRadius: 4,
+        width: screenWidth/2.5,
+        alignItems: 'center',
+        margin: 5
+    },
+    inActiveAuthorItem: {
+        backgroundColor: '#BFBFBF',
+        padding: 5,
+        paddingTop: 10,
+        paddingBottom: 10,
+        borderRadius: 4,
+        width: screenWidth/2.5,
+        alignItems: 'center',
+        margin: 5
+    },
     listItem: {
         fontSize: 20, 
-        color: 'black'
+        color: '#FFF'
     }
 })
-
-export default AuthorList;

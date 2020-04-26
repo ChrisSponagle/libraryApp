@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { StyleSheet, Text, View  } from 'react-native';
+import { StyleSheet, Text, View, ActivityIndicator } from 'react-native';
 import Header from './src/components/Header';
 import ListContainer from './src/components/ListContainer';
 
@@ -9,7 +9,6 @@ export default class App extends Component {
     bookData: []
   }
   componentDidMount() {
-  
     fetch('http://192.168.0.46:4000/posts')
       .then((response) =>  response.json())
       .then((json) => { 
@@ -25,7 +24,8 @@ export default class App extends Component {
     return (
       <View style={styles.container}>
         <Header />
-        <ListContainer bookData={bookData}/>
+        {bookData.length === 0 && <ActivityIndicator style={styles.activityIndicator} size='large' color="#059BFF"/>}
+        {bookData.length > 0 && <ListContainer bookData={bookData}/>}
       </View>
     );
   }
@@ -36,5 +36,8 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: '#F0F0F0',
     alignItems: 'center',
+  },
+  activityIndicator: {
+    flex: 1
   }
 });

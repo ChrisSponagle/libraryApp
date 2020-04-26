@@ -17,13 +17,13 @@ const styles = StyleSheet.create({
     headerContainer: {
       backgroundColor: '#059BFF',
       alignItems: 'center',
-      height: 220,
+      height: 200,
       width: screenWidth,
       padding: 15
     },
     headerLogo: {
-        height: 150,
-        width: 150
+        height: 130,
+        width: 130
     },
     headerFont: {
         fontSize: 30,
