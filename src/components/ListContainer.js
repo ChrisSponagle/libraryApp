@@ -40,8 +40,9 @@ export default class ListContainer extends Component {
         bookData.map((item, index) => {
             authors.push(item.author.name) 
         })
-        const onlyAuthors = [...new Set(authors)]
-        return onlyAuthors.map((item, index) => {
+        const uniqueAuthors = [...new Set(authors)]
+        const sortedAuthors = uniqueAuthors.sort()
+        return sortedAuthors.map((item, index) => {
             return (
                 <AuthorList key={index} author={item} filterAuthor={this.filterAuthor} selectedAuthor={this.state.selectedAuthor}/>
             )

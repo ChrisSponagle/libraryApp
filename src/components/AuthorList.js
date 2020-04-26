@@ -6,25 +6,18 @@ import { TouchableOpacity, Text, StyleSheet, Dimensions, Alert } from 'react-nat
             super(props);
             
             this.state={
-                selectedAuthor: ''
-            }
-            
-            this.selectAuthor = this.selectAuthor.bind(this)
+                selectedAuthor: 'All'
+            }    
         }
 
-        selectAuthor(author) {
-            this.setState({
-                selectedAuthor: author
-            })
-            this.props.filterAuthor(author)
+        componentDidUpdate() {
+            this.setState({selectedAuthor: this.props.selectedAuthor})
         }
    
         render() {
         const { author, selectedAuthor } = this.props
-        this.setState({selectedAuthor: selectedAuthor})
-        if (selectedAuthor === "") { this.setState({selectedAuthor: "All"}) }
             return (
-                <TouchableOpacity onPress={() => this.selectAuthor(author)} style={author === this.state.selectedAuthor ? styles.activeAuthorItem : styles.inActiveAuthorItem}>
+                <TouchableOpacity onPress={() => this.props.filterAuthor(author)} style={author === this.state.selectedAuthor ? styles.activeAuthorItem : styles.inActiveAuthorItem}>
                     <Text style={styles.listItem}>{author}</Text>
                 </TouchableOpacity>
             )
