@@ -23,7 +23,7 @@ export default class App extends Component {
     const { bookData } = this.state
     return (
       <View style={styles.container}>
-        <Header />
+        <Header type={'mainpage'} />
         {bookData.length === 0 && <ActivityIndicator style={styles.activityIndicator} size='large' color="#059BFF"/>}
         {bookData.length > 0 && <ListContainer bookData={bookData}/>}
       </View>
