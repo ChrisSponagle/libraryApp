@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { View, Text, StyleSheet, Dimensions, TouchableOpacity, Image, ScrollView } from 'react-native';
 import { LinearGradient } from 'expo-linear-gradient';
+import Markdown from 'react-native-markdown-renderer';
 import Header from './Header';
 
 function DetailedInfo(props) {
@@ -20,7 +21,7 @@ function DetailedInfo(props) {
                 <ScrollView contentContainerStyle={styles.scrollContainer}>
                     <Text style={styles.title}>{item.title}</Text>
                     <Text style={styles.author}>{item.author.name}</Text>
-                    <Text style={styles.body}>{item.body}</Text>
+                    <Markdown>{item.body}</Markdown>
                 </ScrollView>
             </View>
         </View>

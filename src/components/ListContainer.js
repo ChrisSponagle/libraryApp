@@ -49,6 +49,7 @@ export default class ListContainer extends Component {
     }
 
     renderBooks = (bookData) => {
+        bookData.sort((a,b) => (a.publishedAt < b.publishedAt) ? 1 : ((b.publishedAt < a.publishedAt) ? -1 : 0)); 
         return bookData.map((item, index) => {
             return (
              <ItemList key={index} item={item} navigation={this.props.navigation} />
