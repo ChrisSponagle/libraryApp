@@ -3,6 +3,21 @@ import { StyleSheet, Text, View } from 'react-native';
 
 export default class App extends Component {
 
+  state = {
+    books: ''
+  }
+  componentDidMount() {
+  
+    fetch('http://192.168.0.46:4000/posts')
+      .then((response) =>  response.json())
+      .then((json) => { 
+        console.log("JSON", json)   
+      })
+      .catch((error) => {
+        console.error(error);
+      });
+  }
+
   render() {
 
     return (
