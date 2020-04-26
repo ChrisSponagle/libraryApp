@@ -3,6 +3,7 @@ import { View, Text, StyleSheet, Dimensions, TouchableOpacity, Image, ScrollView
 import { LinearGradient } from 'expo-linear-gradient';
 import Markdown from 'react-native-markdown-renderer';
 import Header from './Header';
+// import item from './mockItem.json' **For jest testing**
 
 function DetailedInfo(props) {
     const { item } = props.navigation.state.params

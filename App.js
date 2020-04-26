@@ -5,7 +5,7 @@ import ListContainer from './src/components/ListContainer';
 import { createAppContainer } from 'react-navigation';
 import { createStackNavigator } from 'react-navigation-stack';
 import DetailedInfo from './src/components/DetailedInfo';
-
+// import data from './mockData.json' **For jest testing**
 console.disableYellowBox = true;
 class MainScreen extends React.Component {
   
@@ -35,6 +35,17 @@ class MainScreen extends React.Component {
     );
   }  
 }
+
+  const styles = StyleSheet.create({
+    container: {
+      flex: 1,
+      backgroundColor: '#F0F0F0',
+      alignItems: 'center',
+    },
+    activityIndicator: {
+      flex: 1
+    }
+  });
 
 class DetailedInfoScreen extends React.Component {
   render() {
@@ -66,14 +77,3 @@ export default class App extends Component {
     );
   }
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#F0F0F0',
-    alignItems: 'center',
-  },
-  activityIndicator: {
-    flex: 1
-  }
-});

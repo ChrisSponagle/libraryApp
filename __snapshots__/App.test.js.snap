@@ -1,0 +1,3734 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<App /> renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <RNCSafeAreaView
+    onInsetsChange={[Function]}
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <View
+      onLayout={[Function]}
+      style={
+        Object {
+          "flex": 1,
+          "overflow": "hidden",
+        }
+      }
+    >
+      <View
+        pointerEvents="box-none"
+        style={
+          Object {
+            "bottom": 0,
+            "left": 0,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+          }
+        }
+      >
+        <View
+          accessibilityElementsHidden={false}
+          closing={false}
+          gestureVelocityImpact={0.3}
+          importantForAccessibility="auto"
+          onClose={[Function]}
+          onGestureBegin={[Function]}
+          onGestureCanceled={[Function]}
+          onOpen={[Function]}
+          onTransitionStart={[Function]}
+          pointerEvents="box-none"
+          style={
+            Object {
+              "bottom": 0,
+              "left": 0,
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+            }
+          }
+          transitionSpec={
+            Object {
+              "close": Object {
+                "animation": "spring",
+                "config": Object {
+                  "damping": 500,
+                  "mass": 3,
+                  "overshootClamping": true,
+                  "restDisplacementThreshold": 0.01,
+                  "restSpeedThreshold": 0.01,
+                  "stiffness": 1000,
+                },
+              },
+              "open": Object {
+                "animation": "spring",
+                "config": Object {
+                  "damping": 500,
+                  "mass": 3,
+                  "overshootClamping": true,
+                  "restDisplacementThreshold": 0.01,
+                  "restSpeedThreshold": 0.01,
+                  "stiffness": 1000,
+                },
+              },
+            }
+          }
+        >
+          <View
+            pointerEvents="box-none"
+            style={
+              Object {
+                "flex": 1,
+              }
+            }
+          >
+            <View
+              collapsable={false}
+              onGestureHandlerEvent={[Function]}
+              onGestureHandlerStateChange={[Function]}
+              style={
+                Object {
+                  "flex": 1,
+                  "transform": Array [
+                    Object {
+                      "translateX": 0,
+                    },
+                    Object {
+                      "translateX": 0,
+                    },
+                  ],
+                }
+              }
+            >
+              <View
+                pointerEvents="none"
+                style={
+                  Object {
+                    "backgroundColor": "rgb(242, 242, 242)",
+                    "bottom": 0,
+                    "left": 0,
+                    "position": "absolute",
+                    "shadowColor": "#000",
+                    "shadowOffset": Object {
+                      "height": 1,
+                      "width": -1,
+                    },
+                    "shadowOpacity": 0.3,
+                    "shadowRadius": 5,
+                    "top": 0,
+                    "width": 3,
+                  }
+                }
+              />
+              <View
+                style={
+                  Array [
+                    Object {
+                      "flex": 1,
+                      "overflow": "hidden",
+                    },
+                    Array [
+                      Object {
+                        "backgroundColor": "rgb(242, 242, 242)",
+                      },
+                      undefined,
+                    ],
+                  ]
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "flex": 1,
+                      "flexDirection": "column-reverse",
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      Object {
+                        "flex": 1,
+                      }
+                    }
+                  >
+                    <View
+                      style={
+                        Object {
+                          "alignItems": "center",
+                          "backgroundColor": "#F0F0F0",
+                          "flex": 1,
+                        }
+                      }
+                    >
+                      <View
+                        style={
+                          Object {
+                            "alignItems": "center",
+                            "backgroundColor": "#059BFF",
+                            "height": 160,
+                            "paddingTop": 15,
+                            "width": 750,
+                          }
+                        }
+                      >
+                        <Image
+                          source={1}
+                          style={
+                            Object {
+                              "height": 100,
+                              "width": 100,
+                            }
+                          }
+                        />
+                        <Text
+                          style={
+                            Object {
+                              "color": "#FFF",
+                              "fontSize": 30,
+                            }
+                          }
+                        >
+                          silverorange Library
+                        </Text>
+                      </View>
+                      <View
+                        style={
+                          Object {
+                            "alignItems": "center",
+                            "flex": 1,
+                            "width": 750,
+                          }
+                        }
+                      >
+                        <View
+                          style={
+                            Object {
+                              "borderBottomWidth": 1,
+                              "elevation": 5,
+                              "flexDirection": "row",
+                              "flexWrap": "wrap",
+                              "justifyContent": "space-evenly",
+                              "padding": 10,
+                              "shadowColor": "#000",
+                              "shadowOffset": Object {
+                                "height": 1,
+                                "width": 0,
+                              },
+                              "shadowOpacity": 0.8,
+                              "shadowRadius": 1,
+                            }
+                          }
+                        >
+                          <View
+                            accessible={true}
+                            focusable={true}
+                            isTVSelectable={true}
+                            onClick={[Function]}
+                            onResponderGrant={[Function]}
+                            onResponderMove={[Function]}
+                            onResponderRelease={[Function]}
+                            onResponderTerminate={[Function]}
+                            onResponderTerminationRequest={[Function]}
+                            onStartShouldSetResponder={[Function]}
+                            style={
+                              Object {
+                                "alignItems": "center",
+                                "backgroundColor": "#18A0FB",
+                                "borderRadius": 4,
+                                "margin": 5,
+                                "opacity": 1,
+                                "padding": 5,
+                                "paddingBottom": 10,
+                                "paddingTop": 10,
+                                "width": 300,
+                              }
+                            }
+                          >
+                            <Text
+                              style={
+                                Object {
+                                  "color": "#FFF",
+                                  "fontSize": 15,
+                                }
+                              }
+                            >
+                              All
+                            </Text>
+                          </View>
+                          <View
+                            accessible={true}
+                            focusable={true}
+                            isTVSelectable={true}
+                            onClick={[Function]}
+                            onResponderGrant={[Function]}
+                            onResponderMove={[Function]}
+                            onResponderRelease={[Function]}
+                            onResponderTerminate={[Function]}
+                            onResponderTerminationRequest={[Function]}
+                            onStartShouldSetResponder={[Function]}
+                            style={
+                              Object {
+                                "alignItems": "center",
+                                "backgroundColor": "#BFBFBF",
+                                "borderRadius": 4,
+                                "margin": 5,
+                                "opacity": 1,
+                                "padding": 5,
+                                "paddingBottom": 10,
+                                "paddingTop": 10,
+                                "width": 300,
+                              }
+                            }
+                          >
+                            <Text
+                              style={
+                                Object {
+                                  "color": "#FFF",
+                                  "fontSize": 15,
+                                }
+                              }
+                            >
+                              Bill Johnson
+                            </Text>
+                          </View>
+                          <View
+                            accessible={true}
+                            focusable={true}
+                            isTVSelectable={true}
+                            onClick={[Function]}
+                            onResponderGrant={[Function]}
+                            onResponderMove={[Function]}
+                            onResponderRelease={[Function]}
+                            onResponderTerminate={[Function]}
+                            onResponderTerminationRequest={[Function]}
+                            onStartShouldSetResponder={[Function]}
+                            style={
+                              Object {
+                                "alignItems": "center",
+                                "backgroundColor": "#BFBFBF",
+                                "borderRadius": 4,
+                                "margin": 5,
+                                "opacity": 1,
+                                "padding": 5,
+                                "paddingBottom": 10,
+                                "paddingTop": 10,
+                                "width": 300,
+                              }
+                            }
+                          >
+                            <Text
+                              style={
+                                Object {
+                                  "color": "#FFF",
+                                  "fontSize": 15,
+                                }
+                              }
+                            >
+                              Breck Eisner
+                            </Text>
+                          </View>
+                          <View
+                            accessible={true}
+                            focusable={true}
+                            isTVSelectable={true}
+                            onClick={[Function]}
+                            onResponderGrant={[Function]}
+                            onResponderMove={[Function]}
+                            onResponderRelease={[Function]}
+                            onResponderTerminate={[Function]}
+                            onResponderTerminationRequest={[Function]}
+                            onStartShouldSetResponder={[Function]}
+                            style={
+                              Object {
+                                "alignItems": "center",
+                                "backgroundColor": "#BFBFBF",
+                                "borderRadius": 4,
+                                "margin": 5,
+                                "opacity": 1,
+                                "padding": 5,
+                                "paddingBottom": 10,
+                                "paddingTop": 10,
+                                "width": 300,
+                              }
+                            }
+                          >
+                            <Text
+                              style={
+                                Object {
+                                  "color": "#FFF",
+                                  "fontSize": 15,
+                                }
+                              }
+                            >
+                              David Petrarca
+                            </Text>
+                          </View>
+                          <View
+                            accessible={true}
+                            focusable={true}
+                            isTVSelectable={true}
+                            onClick={[Function]}
+                            onResponderGrant={[Function]}
+                            onResponderMove={[Function]}
+                            onResponderRelease={[Function]}
+                            onResponderTerminate={[Function]}
+                            onResponderTerminationRequest={[Function]}
+                            onStartShouldSetResponder={[Function]}
+                            style={
+                              Object {
+                                "alignItems": "center",
+                                "backgroundColor": "#BFBFBF",
+                                "borderRadius": 4,
+                                "margin": 5,
+                                "opacity": 1,
+                                "padding": 5,
+                                "paddingBottom": 10,
+                                "paddingTop": 10,
+                                "width": 300,
+                              }
+                            }
+                          >
+                            <Text
+                              style={
+                                Object {
+                                  "color": "#FFF",
+                                  "fontSize": 15,
+                                }
+                              }
+                            >
+                              Jeff Woolnough
+                            </Text>
+                          </View>
+                          <View
+                            accessible={true}
+                            focusable={true}
+                            isTVSelectable={true}
+                            onClick={[Function]}
+                            onResponderGrant={[Function]}
+                            onResponderMove={[Function]}
+                            onResponderRelease={[Function]}
+                            onResponderTerminate={[Function]}
+                            onResponderTerminationRequest={[Function]}
+                            onStartShouldSetResponder={[Function]}
+                            style={
+                              Object {
+                                "alignItems": "center",
+                                "backgroundColor": "#BFBFBF",
+                                "borderRadius": 4,
+                                "margin": 5,
+                                "opacity": 1,
+                                "padding": 5,
+                                "paddingBottom": 10,
+                                "paddingTop": 10,
+                                "width": 300,
+                              }
+                            }
+                          >
+                            <Text
+                              style={
+                                Object {
+                                  "color": "#FFF",
+                                  "fontSize": 15,
+                                }
+                              }
+                            >
+                              Rob Lieberman
+                            </Text>
+                          </View>
+                          <View
+                            accessible={true}
+                            focusable={true}
+                            isTVSelectable={true}
+                            onClick={[Function]}
+                            onResponderGrant={[Function]}
+                            onResponderMove={[Function]}
+                            onResponderRelease={[Function]}
+                            onResponderTerminate={[Function]}
+                            onResponderTerminationRequest={[Function]}
+                            onStartShouldSetResponder={[Function]}
+                            style={
+                              Object {
+                                "alignItems": "center",
+                                "backgroundColor": "#BFBFBF",
+                                "borderRadius": 4,
+                                "margin": 5,
+                                "opacity": 1,
+                                "padding": 5,
+                                "paddingBottom": 10,
+                                "paddingTop": 10,
+                                "width": 300,
+                              }
+                            }
+                          >
+                            <Text
+                              style={
+                                Object {
+                                  "color": "#FFF",
+                                  "fontSize": 15,
+                                }
+                              }
+                            >
+                              Sarah Harding
+                            </Text>
+                          </View>
+                          <View
+                            accessible={true}
+                            focusable={true}
+                            isTVSelectable={true}
+                            onClick={[Function]}
+                            onResponderGrant={[Function]}
+                            onResponderMove={[Function]}
+                            onResponderRelease={[Function]}
+                            onResponderTerminate={[Function]}
+                            onResponderTerminationRequest={[Function]}
+                            onStartShouldSetResponder={[Function]}
+                            style={
+                              Object {
+                                "alignItems": "center",
+                                "backgroundColor": "#BFBFBF",
+                                "borderRadius": 4,
+                                "margin": 5,
+                                "opacity": 1,
+                                "padding": 5,
+                                "paddingBottom": 10,
+                                "paddingTop": 10,
+                                "width": 300,
+                              }
+                            }
+                          >
+                            <Text
+                              style={
+                                Object {
+                                  "color": "#FFF",
+                                  "fontSize": 15,
+                                }
+                              }
+                            >
+                              Terry McDonough
+                            </Text>
+                          </View>
+                        </View>
+                        <RCTScrollView
+                          contentContainerStyle={
+                            Object {
+                              "alignItems": "center",
+                              "paddingBottom": 20,
+                              "width": 750,
+                            }
+                          }
+                        >
+                          <View>
+                            <View
+                              accessible={true}
+                              focusable={true}
+                              isTVSelectable={true}
+                              onClick={[Function]}
+                              onResponderGrant={[Function]}
+                              onResponderMove={[Function]}
+                              onResponderRelease={[Function]}
+                              onResponderTerminate={[Function]}
+                              onResponderTerminationRequest={[Function]}
+                              onStartShouldSetResponder={[Function]}
+                              style={
+                                Object {
+                                  "backgroundColor": "#FFF",
+                                  "borderRadius": 4,
+                                  "elevation": 5,
+                                  "flexDirection": "row",
+                                  "justifyContent": "space-between",
+                                  "marginTop": 15,
+                                  "opacity": 1,
+                                  "padding": 10,
+                                  "shadowColor": "#000",
+                                  "shadowOffset": Object {
+                                    "height": 1,
+                                    "width": 0,
+                                  },
+                                  "shadowOpacity": 0.8,
+                                  "shadowRadius": 1,
+                                  "width": 700,
+                                }
+                              }
+                            >
+                              <View
+                                style={
+                                  Object {
+                                    "height": 60,
+                                    "overflow": "hidden",
+                                    "width": 220,
+                                  }
+                                }
+                              >
+                                <View
+                                  style={
+                                    Object {
+                                      "flexDirection": "row",
+                                    }
+                                  }
+                                >
+                                  <Text
+                                    style={
+                                      Object {
+                                        "color": "black",
+                                        "fontSize": 15,
+                                        "fontWeight": "bold",
+                                      }
+                                    }
+                                  >
+                                    Title: 
+                                  </Text>
+                                  <Text
+                                    style={
+                                      Object {
+                                        "color": "black",
+                                        "fontSize": 15,
+                                      }
+                                    }
+                                  >
+                                    Cibola Burn
+                                  </Text>
+                                </View>
+                                <View
+                                  style={
+                                    Object {
+                                      "flexDirection": "row",
+                                    }
+                                  }
+                                >
+                                  <Text
+                                    style={
+                                      Object {
+                                        "color": "black",
+                                        "fontSize": 15,
+                                        "fontWeight": "bold",
+                                      }
+                                    }
+                                  >
+                                    Author: 
+                                  </Text>
+                                  <Text
+                                    style={
+                                      Object {
+                                        "color": "black",
+                                        "fontSize": 15,
+                                      }
+                                    }
+                                  >
+                                    Breck Eisner
+                                  </Text>
+                                </View>
+                                <View
+                                  style={
+                                    Object {
+                                      "flexDirection": "row",
+                                    }
+                                  }
+                                >
+                                  <Text
+                                    style={
+                                      Object {
+                                        "color": "black",
+                                        "fontSize": 15,
+                                        "fontWeight": "bold",
+                                      }
+                                    }
+                                  >
+                                    Summary: 
+                                  </Text>
+                                  <Text
+                                    style={
+                                      Object {
+                                        "color": "black",
+                                        "fontSize": 15,
+                                      }
+                                    }
+                                  >
+                                     Tum vota nigraq
+                                    ...
+                                  </Text>
+                                </View>
+                              </View>
+                              <View
+                                style={
+                                  Object {
+                                    "alignItems": "flex-end",
+                                  }
+                                }
+                              >
+                                <Text
+                                  style={
+                                    Object {
+                                      "color": "black",
+                                      "fontSize": 15,
+                                    }
+                                  }
+                                >
+                                  2019-12-12
+                                </Text>
+                                <Text
+                                  style={
+                                    Object {
+                                      "color": "black",
+                                      "fontSize": 15,
+                                    }
+                                  }
+                                >
+                                  13:00
+                                </Text>
+                              </View>
+                            </View>
+                            <View
+                              accessible={true}
+                              focusable={true}
+                              isTVSelectable={true}
+                              onClick={[Function]}
+                              onResponderGrant={[Function]}
+                              onResponderMove={[Function]}
+                              onResponderRelease={[Function]}
+                              onResponderTerminate={[Function]}
+                              onResponderTerminationRequest={[Function]}
+                              onStartShouldSetResponder={[Function]}
+                              style={
+                                Object {
+                                  "backgroundColor": "#FFF",
+                                  "borderRadius": 4,
+                                  "elevation": 5,
+                                  "flexDirection": "row",
+                                  "justifyContent": "space-between",
+                                  "marginTop": 15,
+                                  "opacity": 1,
+                                  "padding": 10,
+                                  "shadowColor": "#000",
+                                  "shadowOffset": Object {
+                                    "height": 1,
+                                    "width": 0,
+                                  },
+                                  "shadowOpacity": 0.8,
+                                  "shadowRadius": 1,
+                                  "width": 700,
+                                }
+                              }
+                            >
+                              <View
+                                style={
+                                  Object {
+                                    "height": 60,
+                                    "overflow": "hidden",
+                                    "width": 220,
+                                  }
+                                }
+                              >
+                                <View
+                                  style={
+                                    Object {
+                                      "flexDirection": "row",
+                                    }
+                                  }
+                                >
+                                  <Text
+                                    style={
+                                      Object {
+                                        "color": "black",
+                                        "fontSize": 15,
+                                        "fontWeight": "bold",
+                                      }
+                                    }
+                                  >
+                                    Title: 
+                                  </Text>
+                                  <Text
+                                    style={
+                                      Object {
+                                        "color": "black",
+                                        "fontSize": 15,
+                                      }
+                                    }
+                                  >
+                                    Saeculum
+                                  </Text>
+                                </View>
+                                <View
+                                  style={
+                                    Object {
+                                      "flexDirection": "row",
+                                    }
+                                  }
+                                >
+                                  <Text
+                                    style={
+                                      Object {
+                                        "color": "black",
+                                        "fontSize": 15,
+                                        "fontWeight": "bold",
+                                      }
+                                    }
+                                  >
+                                    Author: 
+                                  </Text>
+                                  <Text
+                                    style={
+                                      Object {
+                                        "color": "black",
+                                        "fontSize": 15,
+                                      }
+                                    }
+                                  >
+                                    Breck Eisner
+                                  </Text>
+                                </View>
+                                <View
+                                  style={
+                                    Object {
+                                      "flexDirection": "row",
+                                    }
+                                  }
+                                >
+                                  <Text
+                                    style={
+                                      Object {
+                                        "color": "black",
+                                        "fontSize": 15,
+                                        "fontWeight": "bold",
+                                      }
+                                    }
+                                  >
+                                    Summary: 
+                                  </Text>
+                                  <Text
+                                    style={
+                                      Object {
+                                        "color": "black",
+                                        "fontSize": 15,
+                                      }
+                                    }
+                                  >
+                                     Habentia sunt o
+                                    ...
+                                  </Text>
+                                </View>
+                              </View>
+                              <View
+                                style={
+                                  Object {
+                                    "alignItems": "flex-end",
+                                  }
+                                }
+                              >
+                                <Text
+                                  style={
+                                    Object {
+                                      "color": "black",
+                                      "fontSize": 15,
+                                    }
+                                  }
+                                >
+                                  2019-12-12
+                                </Text>
+                                <Text
+                                  style={
+                                    Object {
+                                      "color": "black",
+                                      "fontSize": 15,
+                                    }
+                                  }
+                                >
+                                  12:00
+                                </Text>
+                              </View>
+                            </View>
+                            <View
+                              accessible={true}
+                              focusable={true}
+                              isTVSelectable={true}
+                              onClick={[Function]}
+                              onResponderGrant={[Function]}
+                              onResponderMove={[Function]}
+                              onResponderRelease={[Function]}
+                              onResponderTerminate={[Function]}
+                              onResponderTerminationRequest={[Function]}
+                              onStartShouldSetResponder={[Function]}
+                              style={
+                                Object {
+                                  "backgroundColor": "#FFF",
+                                  "borderRadius": 4,
+                                  "elevation": 5,
+                                  "flexDirection": "row",
+                                  "justifyContent": "space-between",
+                                  "marginTop": 15,
+                                  "opacity": 1,
+                                  "padding": 10,
+                                  "shadowColor": "#000",
+                                  "shadowOffset": Object {
+                                    "height": 1,
+                                    "width": 0,
+                                  },
+                                  "shadowOpacity": 0.8,
+                                  "shadowRadius": 1,
+                                  "width": 700,
+                                }
+                              }
+                            >
+                              <View
+                                style={
+                                  Object {
+                                    "height": 60,
+                                    "overflow": "hidden",
+                                    "width": 220,
+                                  }
+                                }
+                              >
+                                <View
+                                  style={
+                                    Object {
+                                      "flexDirection": "row",
+                                    }
+                                  }
+                                >
+                                  <Text
+                                    style={
+                                      Object {
+                                        "color": "black",
+                                        "fontSize": 15,
+                                        "fontWeight": "bold",
+                                      }
+                                    }
+                                  >
+                                    Title: 
+                                  </Text>
+                                  <Text
+                                    style={
+                                      Object {
+                                        "color": "black",
+                                        "fontSize": 15,
+                                      }
+                                    }
+                                  >
+                                    The One-Eyed Man
+                                  </Text>
+                                </View>
+                                <View
+                                  style={
+                                    Object {
+                                      "flexDirection": "row",
+                                    }
+                                  }
+                                >
+                                  <Text
+                                    style={
+                                      Object {
+                                        "color": "black",
+                                        "fontSize": 15,
+                                        "fontWeight": "bold",
+                                      }
+                                    }
+                                  >
+                                    Author: 
+                                  </Text>
+                                  <Text
+                                    style={
+                                      Object {
+                                        "color": "black",
+                                        "fontSize": 15,
+                                      }
+                                    }
+                                  >
+                                    Sarah Harding
+                                  </Text>
+                                </View>
+                                <View
+                                  style={
+                                    Object {
+                                      "flexDirection": "row",
+                                    }
+                                  }
+                                >
+                                  <Text
+                                    style={
+                                      Object {
+                                        "color": "black",
+                                        "fontSize": 15,
+                                        "fontWeight": "bold",
+                                      }
+                                    }
+                                  >
+                                    Summary: 
+                                  </Text>
+                                  <Text
+                                    style={
+                                      Object {
+                                        "color": "black",
+                                        "fontSize": 15,
+                                      }
+                                    }
+                                  >
+                                     Fratribus spret
+                                    ...
+                                  </Text>
+                                </View>
+                              </View>
+                              <View
+                                style={
+                                  Object {
+                                    "alignItems": "flex-end",
+                                  }
+                                }
+                              >
+                                <Text
+                                  style={
+                                    Object {
+                                      "color": "black",
+                                      "fontSize": 15,
+                                    }
+                                  }
+                                >
+                                  2019-12-12
+                                </Text>
+                                <Text
+                                  style={
+                                    Object {
+                                      "color": "black",
+                                      "fontSize": 15,
+                                    }
+                                  }
+                                >
+                                  11:00
+                                </Text>
+                              </View>
+                            </View>
+                            <View
+                              accessible={true}
+                              focusable={true}
+                              isTVSelectable={true}
+                              onClick={[Function]}
+                              onResponderGrant={[Function]}
+                              onResponderMove={[Function]}
+                              onResponderRelease={[Function]}
+                              onResponderTerminate={[Function]}
+                              onResponderTerminationRequest={[Function]}
+                              onStartShouldSetResponder={[Function]}
+                              style={
+                                Object {
+                                  "backgroundColor": "#FFF",
+                                  "borderRadius": 4,
+                                  "elevation": 5,
+                                  "flexDirection": "row",
+                                  "justifyContent": "space-between",
+                                  "marginTop": 15,
+                                  "opacity": 1,
+                                  "padding": 10,
+                                  "shadowColor": "#000",
+                                  "shadowOffset": Object {
+                                    "height": 1,
+                                    "width": 0,
+                                  },
+                                  "shadowOpacity": 0.8,
+                                  "shadowRadius": 1,
+                                  "width": 700,
+                                }
+                              }
+                            >
+                              <View
+                                style={
+                                  Object {
+                                    "height": 60,
+                                    "overflow": "hidden",
+                                    "width": 220,
+                                  }
+                                }
+                              >
+                                <View
+                                  style={
+                                    Object {
+                                      "flexDirection": "row",
+                                    }
+                                  }
+                                >
+                                  <Text
+                                    style={
+                                      Object {
+                                        "color": "black",
+                                        "fontSize": 15,
+                                        "fontWeight": "bold",
+                                      }
+                                    }
+                                  >
+                                    Title: 
+                                  </Text>
+                                  <Text
+                                    style={
+                                      Object {
+                                        "color": "black",
+                                        "fontSize": 15,
+                                      }
+                                    }
+                                  >
+                                    A Shot In The Dark
+                                  </Text>
+                                </View>
+                                <View
+                                  style={
+                                    Object {
+                                      "flexDirection": "row",
+                                    }
+                                  }
+                                >
+                                  <Text
+                                    style={
+                                      Object {
+                                        "color": "black",
+                                        "fontSize": 15,
+                                        "fontWeight": "bold",
+                                      }
+                                    }
+                                  >
+                                    Author: 
+                                  </Text>
+                                  <Text
+                                    style={
+                                      Object {
+                                        "color": "black",
+                                        "fontSize": 15,
+                                      }
+                                    }
+                                  >
+                                    Sarah Harding
+                                  </Text>
+                                </View>
+                                <View
+                                  style={
+                                    Object {
+                                      "flexDirection": "row",
+                                    }
+                                  }
+                                >
+                                  <Text
+                                    style={
+                                      Object {
+                                        "color": "black",
+                                        "fontSize": 15,
+                                        "fontWeight": "bold",
+                                      }
+                                    }
+                                  >
+                                    Summary: 
+                                  </Text>
+                                  <Text
+                                    style={
+                                      Object {
+                                        "color": "black",
+                                        "fontSize": 15,
+                                      }
+                                    }
+                                  >
+                                     Non longa gland
+                                    ...
+                                  </Text>
+                                </View>
+                              </View>
+                              <View
+                                style={
+                                  Object {
+                                    "alignItems": "flex-end",
+                                  }
+                                }
+                              >
+                                <Text
+                                  style={
+                                    Object {
+                                      "color": "black",
+                                      "fontSize": 15,
+                                    }
+                                  }
+                                >
+                                  2019-12-12
+                                </Text>
+                                <Text
+                                  style={
+                                    Object {
+                                      "color": "black",
+                                      "fontSize": 15,
+                                    }
+                                  }
+                                >
+                                  10:00
+                                </Text>
+                              </View>
+                            </View>
+                            <View
+                              accessible={true}
+                              focusable={true}
+                              isTVSelectable={true}
+                              onClick={[Function]}
+                              onResponderGrant={[Function]}
+                              onResponderMove={[Function]}
+                              onResponderRelease={[Function]}
+                              onResponderTerminate={[Function]}
+                              onResponderTerminationRequest={[Function]}
+                              onStartShouldSetResponder={[Function]}
+                              style={
+                                Object {
+                                  "backgroundColor": "#FFF",
+                                  "borderRadius": 4,
+                                  "elevation": 5,
+                                  "flexDirection": "row",
+                                  "justifyContent": "space-between",
+                                  "marginTop": 15,
+                                  "opacity": 1,
+                                  "padding": 10,
+                                  "shadowColor": "#000",
+                                  "shadowOffset": Object {
+                                    "height": 1,
+                                    "width": 0,
+                                  },
+                                  "shadowOpacity": 0.8,
+                                  "shadowRadius": 1,
+                                  "width": 700,
+                                }
+                              }
+                            >
+                              <View
+                                style={
+                                  Object {
+                                    "height": 60,
+                                    "overflow": "hidden",
+                                    "width": 220,
+                                  }
+                                }
+                              >
+                                <View
+                                  style={
+                                    Object {
+                                      "flexDirection": "row",
+                                    }
+                                  }
+                                >
+                                  <Text
+                                    style={
+                                      Object {
+                                        "color": "black",
+                                        "fontSize": 15,
+                                        "fontWeight": "bold",
+                                      }
+                                    }
+                                  >
+                                    Title: 
+                                  </Text>
+                                  <Text
+                                    style={
+                                      Object {
+                                        "color": "black",
+                                        "fontSize": 15,
+                                      }
+                                    }
+                                  >
+                                    Displacement
+                                  </Text>
+                                </View>
+                                <View
+                                  style={
+                                    Object {
+                                      "flexDirection": "row",
+                                    }
+                                  }
+                                >
+                                  <Text
+                                    style={
+                                      Object {
+                                        "color": "black",
+                                        "fontSize": 15,
+                                        "fontWeight": "bold",
+                                      }
+                                    }
+                                  >
+                                    Author: 
+                                  </Text>
+                                  <Text
+                                    style={
+                                      Object {
+                                        "color": "black",
+                                        "fontSize": 15,
+                                      }
+                                    }
+                                  >
+                                    Jeff Woolnough
+                                  </Text>
+                                </View>
+                                <View
+                                  style={
+                                    Object {
+                                      "flexDirection": "row",
+                                    }
+                                  }
+                                >
+                                  <Text
+                                    style={
+                                      Object {
+                                        "color": "black",
+                                        "fontSize": 15,
+                                        "fontWeight": "bold",
+                                      }
+                                    }
+                                  >
+                                    Summary: 
+                                  </Text>
+                                  <Text
+                                    style={
+                                      Object {
+                                        "color": "black",
+                                        "fontSize": 15,
+                                      }
+                                    }
+                                  >
+                                     Et acies summo 
+                                    ...
+                                  </Text>
+                                </View>
+                              </View>
+                              <View
+                                style={
+                                  Object {
+                                    "alignItems": "flex-end",
+                                  }
+                                }
+                              >
+                                <Text
+                                  style={
+                                    Object {
+                                      "color": "black",
+                                      "fontSize": 15,
+                                    }
+                                  }
+                                >
+                                  2019-12-12
+                                </Text>
+                                <Text
+                                  style={
+                                    Object {
+                                      "color": "black",
+                                      "fontSize": 15,
+                                    }
+                                  }
+                                >
+                                  09:00
+                                </Text>
+                              </View>
+                            </View>
+                            <View
+                              accessible={true}
+                              focusable={true}
+                              isTVSelectable={true}
+                              onClick={[Function]}
+                              onResponderGrant={[Function]}
+                              onResponderMove={[Function]}
+                              onResponderRelease={[Function]}
+                              onResponderTerminate={[Function]}
+                              onResponderTerminationRequest={[Function]}
+                              onStartShouldSetResponder={[Function]}
+                              style={
+                                Object {
+                                  "backgroundColor": "#FFF",
+                                  "borderRadius": 4,
+                                  "elevation": 5,
+                                  "flexDirection": "row",
+                                  "justifyContent": "space-between",
+                                  "marginTop": 15,
+                                  "opacity": 1,
+                                  "padding": 10,
+                                  "shadowColor": "#000",
+                                  "shadowOffset": Object {
+                                    "height": 1,
+                                    "width": 0,
+                                  },
+                                  "shadowOpacity": 0.8,
+                                  "shadowRadius": 1,
+                                  "width": 700,
+                                }
+                              }
+                            >
+                              <View
+                                style={
+                                  Object {
+                                    "height": 60,
+                                    "overflow": "hidden",
+                                    "width": 220,
+                                  }
+                                }
+                              >
+                                <View
+                                  style={
+                                    Object {
+                                      "flexDirection": "row",
+                                    }
+                                  }
+                                >
+                                  <Text
+                                    style={
+                                      Object {
+                                        "color": "black",
+                                        "fontSize": 15,
+                                        "fontWeight": "bold",
+                                      }
+                                    }
+                                  >
+                                    Title: 
+                                  </Text>
+                                  <Text
+                                    style={
+                                      Object {
+                                        "color": "black",
+                                        "fontSize": 15,
+                                      }
+                                    }
+                                  >
+                                    Oppressor
+                                  </Text>
+                                </View>
+                                <View
+                                  style={
+                                    Object {
+                                      "flexDirection": "row",
+                                    }
+                                  }
+                                >
+                                  <Text
+                                    style={
+                                      Object {
+                                        "color": "black",
+                                        "fontSize": 15,
+                                        "fontWeight": "bold",
+                                      }
+                                    }
+                                  >
+                                    Author: 
+                                  </Text>
+                                  <Text
+                                    style={
+                                      Object {
+                                        "color": "black",
+                                        "fontSize": 15,
+                                      }
+                                    }
+                                  >
+                                    Jeff Woolnough
+                                  </Text>
+                                </View>
+                                <View
+                                  style={
+                                    Object {
+                                      "flexDirection": "row",
+                                    }
+                                  }
+                                >
+                                  <Text
+                                    style={
+                                      Object {
+                                        "color": "black",
+                                        "fontSize": 15,
+                                        "fontWeight": "bold",
+                                      }
+                                    }
+                                  >
+                                    Summary: 
+                                  </Text>
+                                  <Text
+                                    style={
+                                      Object {
+                                        "color": "black",
+                                        "fontSize": 15,
+                                      }
+                                    }
+                                  >
+                                     Sororum sinit
+
+
+                                    ...
+                                  </Text>
+                                </View>
+                              </View>
+                              <View
+                                style={
+                                  Object {
+                                    "alignItems": "flex-end",
+                                  }
+                                }
+                              >
+                                <Text
+                                  style={
+                                    Object {
+                                      "color": "black",
+                                      "fontSize": 15,
+                                    }
+                                  }
+                                >
+                                  2019-12-12
+                                </Text>
+                                <Text
+                                  style={
+                                    Object {
+                                      "color": "black",
+                                      "fontSize": 15,
+                                    }
+                                  }
+                                >
+                                  08:00
+                                </Text>
+                              </View>
+                            </View>
+                            <View
+                              accessible={true}
+                              focusable={true}
+                              isTVSelectable={true}
+                              onClick={[Function]}
+                              onResponderGrant={[Function]}
+                              onResponderMove={[Function]}
+                              onResponderRelease={[Function]}
+                              onResponderTerminate={[Function]}
+                              onResponderTerminationRequest={[Function]}
+                              onStartShouldSetResponder={[Function]}
+                              style={
+                                Object {
+                                  "backgroundColor": "#FFF",
+                                  "borderRadius": 4,
+                                  "elevation": 5,
+                                  "flexDirection": "row",
+                                  "justifyContent": "space-between",
+                                  "marginTop": 15,
+                                  "opacity": 1,
+                                  "padding": 10,
+                                  "shadowColor": "#000",
+                                  "shadowOffset": Object {
+                                    "height": 1,
+                                    "width": 0,
+                                  },
+                                  "shadowOpacity": 0.8,
+                                  "shadowRadius": 1,
+                                  "width": 700,
+                                }
+                              }
+                            >
+                              <View
+                                style={
+                                  Object {
+                                    "height": 60,
+                                    "overflow": "hidden",
+                                    "width": 220,
+                                  }
+                                }
+                              >
+                                <View
+                                  style={
+                                    Object {
+                                      "flexDirection": "row",
+                                    }
+                                  }
+                                >
+                                  <Text
+                                    style={
+                                      Object {
+                                        "color": "black",
+                                        "fontSize": 15,
+                                        "fontWeight": "bold",
+                                      }
+                                    }
+                                  >
+                                    Title: 
+                                  </Text>
+                                  <Text
+                                    style={
+                                      Object {
+                                        "color": "black",
+                                        "fontSize": 15,
+                                      }
+                                    }
+                                  >
+                                    Retrograde
+                                  </Text>
+                                </View>
+                                <View
+                                  style={
+                                    Object {
+                                      "flexDirection": "row",
+                                    }
+                                  }
+                                >
+                                  <Text
+                                    style={
+                                      Object {
+                                        "color": "black",
+                                        "fontSize": 15,
+                                        "fontWeight": "bold",
+                                      }
+                                    }
+                                  >
+                                    Author: 
+                                  </Text>
+                                  <Text
+                                    style={
+                                      Object {
+                                        "color": "black",
+                                        "fontSize": 15,
+                                      }
+                                    }
+                                  >
+                                    David Petrarca
+                                  </Text>
+                                </View>
+                                <View
+                                  style={
+                                    Object {
+                                      "flexDirection": "row",
+                                    }
+                                  }
+                                >
+                                  <Text
+                                    style={
+                                      Object {
+                                        "color": "black",
+                                        "fontSize": 15,
+                                        "fontWeight": "bold",
+                                      }
+                                    }
+                                  >
+                                    Summary: 
+                                  </Text>
+                                  <Text
+                                    style={
+                                      Object {
+                                        "color": "black",
+                                        "fontSize": 15,
+                                      }
+                                    }
+                                  >
+                                     Expers custodia
+                                    ...
+                                  </Text>
+                                </View>
+                              </View>
+                              <View
+                                style={
+                                  Object {
+                                    "alignItems": "flex-end",
+                                  }
+                                }
+                              >
+                                <Text
+                                  style={
+                                    Object {
+                                      "color": "black",
+                                      "fontSize": 15,
+                                    }
+                                  }
+                                >
+                                  2019-12-12
+                                </Text>
+                                <Text
+                                  style={
+                                    Object {
+                                      "color": "black",
+                                      "fontSize": 15,
+                                    }
+                                  }
+                                >
+                                  07:00
+                                </Text>
+                              </View>
+                            </View>
+                            <View
+                              accessible={true}
+                              focusable={true}
+                              isTVSelectable={true}
+                              onClick={[Function]}
+                              onResponderGrant={[Function]}
+                              onResponderMove={[Function]}
+                              onResponderRelease={[Function]}
+                              onResponderTerminate={[Function]}
+                              onResponderTerminationRequest={[Function]}
+                              onStartShouldSetResponder={[Function]}
+                              style={
+                                Object {
+                                  "backgroundColor": "#FFF",
+                                  "borderRadius": 4,
+                                  "elevation": 5,
+                                  "flexDirection": "row",
+                                  "justifyContent": "space-between",
+                                  "marginTop": 15,
+                                  "opacity": 1,
+                                  "padding": 10,
+                                  "shadowColor": "#000",
+                                  "shadowOffset": Object {
+                                    "height": 1,
+                                    "width": 0,
+                                  },
+                                  "shadowOpacity": 0.8,
+                                  "shadowRadius": 1,
+                                  "width": 700,
+                                }
+                              }
+                            >
+                              <View
+                                style={
+                                  Object {
+                                    "height": 60,
+                                    "overflow": "hidden",
+                                    "width": 220,
+                                  }
+                                }
+                              >
+                                <View
+                                  style={
+                                    Object {
+                                      "flexDirection": "row",
+                                    }
+                                  }
+                                >
+                                  <Text
+                                    style={
+                                      Object {
+                                        "color": "black",
+                                        "fontSize": 15,
+                                        "fontWeight": "bold",
+                                      }
+                                    }
+                                  >
+                                    Title: 
+                                  </Text>
+                                  <Text
+                                    style={
+                                      Object {
+                                        "color": "black",
+                                        "fontSize": 15,
+                                      }
+                                    }
+                                  >
+                                    Subduction
+                                  </Text>
+                                </View>
+                                <View
+                                  style={
+                                    Object {
+                                      "flexDirection": "row",
+                                    }
+                                  }
+                                >
+                                  <Text
+                                    style={
+                                      Object {
+                                        "color": "black",
+                                        "fontSize": 15,
+                                        "fontWeight": "bold",
+                                      }
+                                    }
+                                  >
+                                    Author: 
+                                  </Text>
+                                  <Text
+                                    style={
+                                      Object {
+                                        "color": "black",
+                                        "fontSize": 15,
+                                      }
+                                    }
+                                  >
+                                    David Petrarca
+                                  </Text>
+                                </View>
+                                <View
+                                  style={
+                                    Object {
+                                      "flexDirection": "row",
+                                    }
+                                  }
+                                >
+                                  <Text
+                                    style={
+                                      Object {
+                                        "color": "black",
+                                        "fontSize": 15,
+                                        "fontWeight": "bold",
+                                      }
+                                    }
+                                  >
+                                    Summary: 
+                                  </Text>
+                                  <Text
+                                    style={
+                                      Object {
+                                        "color": "black",
+                                        "fontSize": 15,
+                                      }
+                                    }
+                                  >
+                                     Tellus facta
+
+#
+                                    ...
+                                  </Text>
+                                </View>
+                              </View>
+                              <View
+                                style={
+                                  Object {
+                                    "alignItems": "flex-end",
+                                  }
+                                }
+                              >
+                                <Text
+                                  style={
+                                    Object {
+                                      "color": "black",
+                                      "fontSize": 15,
+                                    }
+                                  }
+                                >
+                                  2019-12-12
+                                </Text>
+                                <Text
+                                  style={
+                                    Object {
+                                      "color": "black",
+                                      "fontSize": 15,
+                                    }
+                                  }
+                                >
+                                  06:00
+                                </Text>
+                              </View>
+                            </View>
+                            <View
+                              accessible={true}
+                              focusable={true}
+                              isTVSelectable={true}
+                              onClick={[Function]}
+                              onResponderGrant={[Function]}
+                              onResponderMove={[Function]}
+                              onResponderRelease={[Function]}
+                              onResponderTerminate={[Function]}
+                              onResponderTerminationRequest={[Function]}
+                              onStartShouldSetResponder={[Function]}
+                              style={
+                                Object {
+                                  "backgroundColor": "#FFF",
+                                  "borderRadius": 4,
+                                  "elevation": 5,
+                                  "flexDirection": "row",
+                                  "justifyContent": "space-between",
+                                  "marginTop": 15,
+                                  "opacity": 1,
+                                  "padding": 10,
+                                  "shadowColor": "#000",
+                                  "shadowOffset": Object {
+                                    "height": 1,
+                                    "width": 0,
+                                  },
+                                  "shadowOpacity": 0.8,
+                                  "shadowRadius": 1,
+                                  "width": 700,
+                                }
+                              }
+                            >
+                              <View
+                                style={
+                                  Object {
+                                    "height": 60,
+                                    "overflow": "hidden",
+                                    "width": 220,
+                                  }
+                                }
+                              >
+                                <View
+                                  style={
+                                    Object {
+                                      "flexDirection": "row",
+                                    }
+                                  }
+                                >
+                                  <Text
+                                    style={
+                                      Object {
+                                        "color": "black",
+                                        "fontSize": 15,
+                                        "fontWeight": "bold",
+                                      }
+                                    }
+                                  >
+                                    Title: 
+                                  </Text>
+                                  <Text
+                                    style={
+                                      Object {
+                                        "color": "black",
+                                        "fontSize": 15,
+                                      }
+                                    }
+                                  >
+                                    Jetsam
+                                  </Text>
+                                </View>
+                                <View
+                                  style={
+                                    Object {
+                                      "flexDirection": "row",
+                                    }
+                                  }
+                                >
+                                  <Text
+                                    style={
+                                      Object {
+                                        "color": "black",
+                                        "fontSize": 15,
+                                        "fontWeight": "bold",
+                                      }
+                                    }
+                                  >
+                                    Author: 
+                                  </Text>
+                                  <Text
+                                    style={
+                                      Object {
+                                        "color": "black",
+                                        "fontSize": 15,
+                                      }
+                                    }
+                                  >
+                                    Breck Eisner
+                                  </Text>
+                                </View>
+                                <View
+                                  style={
+                                    Object {
+                                      "flexDirection": "row",
+                                    }
+                                  }
+                                >
+                                  <Text
+                                    style={
+                                      Object {
+                                        "color": "black",
+                                        "fontSize": 15,
+                                        "fontWeight": "bold",
+                                      }
+                                    }
+                                  >
+                                    Summary: 
+                                  </Text>
+                                  <Text
+                                    style={
+                                      Object {
+                                        "color": "black",
+                                        "fontSize": 15,
+                                      }
+                                    }
+                                  >
+                                     Nam bene adieci
+                                    ...
+                                  </Text>
+                                </View>
+                              </View>
+                              <View
+                                style={
+                                  Object {
+                                    "alignItems": "flex-end",
+                                  }
+                                }
+                              >
+                                <Text
+                                  style={
+                                    Object {
+                                      "color": "black",
+                                      "fontSize": 15,
+                                    }
+                                  }
+                                >
+                                  2019-12-12
+                                </Text>
+                                <Text
+                                  style={
+                                    Object {
+                                      "color": "black",
+                                      "fontSize": 15,
+                                    }
+                                  }
+                                >
+                                  05:00
+                                </Text>
+                              </View>
+                            </View>
+                            <View
+                              accessible={true}
+                              focusable={true}
+                              isTVSelectable={true}
+                              onClick={[Function]}
+                              onResponderGrant={[Function]}
+                              onResponderMove={[Function]}
+                              onResponderRelease={[Function]}
+                              onResponderTerminate={[Function]}
+                              onResponderTerminationRequest={[Function]}
+                              onStartShouldSetResponder={[Function]}
+                              style={
+                                Object {
+                                  "backgroundColor": "#FFF",
+                                  "borderRadius": 4,
+                                  "elevation": 5,
+                                  "flexDirection": "row",
+                                  "justifyContent": "space-between",
+                                  "marginTop": 15,
+                                  "opacity": 1,
+                                  "padding": 10,
+                                  "shadowColor": "#000",
+                                  "shadowOffset": Object {
+                                    "height": 1,
+                                    "width": 0,
+                                  },
+                                  "shadowOpacity": 0.8,
+                                  "shadowRadius": 1,
+                                  "width": 700,
+                                }
+                              }
+                            >
+                              <View
+                                style={
+                                  Object {
+                                    "height": 60,
+                                    "overflow": "hidden",
+                                    "width": 220,
+                                  }
+                                }
+                              >
+                                <View
+                                  style={
+                                    Object {
+                                      "flexDirection": "row",
+                                    }
+                                  }
+                                >
+                                  <Text
+                                    style={
+                                      Object {
+                                        "color": "black",
+                                        "fontSize": 15,
+                                        "fontWeight": "bold",
+                                      }
+                                    }
+                                  >
+                                    Title: 
+                                  </Text>
+                                  <Text
+                                    style={
+                                      Object {
+                                        "color": "black",
+                                        "fontSize": 15,
+                                      }
+                                    }
+                                  >
+                                    New Terra
+                                  </Text>
+                                </View>
+                                <View
+                                  style={
+                                    Object {
+                                      "flexDirection": "row",
+                                    }
+                                  }
+                                >
+                                  <Text
+                                    style={
+                                      Object {
+                                        "color": "black",
+                                        "fontSize": 15,
+                                        "fontWeight": "bold",
+                                      }
+                                    }
+                                  >
+                                    Author: 
+                                  </Text>
+                                  <Text
+                                    style={
+                                      Object {
+                                        "color": "black",
+                                        "fontSize": 15,
+                                      }
+                                    }
+                                  >
+                                    Breck Eisner
+                                  </Text>
+                                </View>
+                                <View
+                                  style={
+                                    Object {
+                                      "flexDirection": "row",
+                                    }
+                                  }
+                                >
+                                  <Text
+                                    style={
+                                      Object {
+                                        "color": "black",
+                                        "fontSize": 15,
+                                        "fontWeight": "bold",
+                                      }
+                                    }
+                                  >
+                                    Summary: 
+                                  </Text>
+                                  <Text
+                                    style={
+                                      Object {
+                                        "color": "black",
+                                        "fontSize": 15,
+                                      }
+                                    }
+                                  >
+                                     Discrimina intu
+                                    ...
+                                  </Text>
+                                </View>
+                              </View>
+                              <View
+                                style={
+                                  Object {
+                                    "alignItems": "flex-end",
+                                  }
+                                }
+                              >
+                                <Text
+                                  style={
+                                    Object {
+                                      "color": "black",
+                                      "fontSize": 15,
+                                    }
+                                  }
+                                >
+                                  2019-12-12
+                                </Text>
+                                <Text
+                                  style={
+                                    Object {
+                                      "color": "black",
+                                      "fontSize": 15,
+                                    }
+                                  }
+                                >
+                                  04:00
+                                </Text>
+                              </View>
+                            </View>
+                            <View
+                              accessible={true}
+                              focusable={true}
+                              isTVSelectable={true}
+                              onClick={[Function]}
+                              onResponderGrant={[Function]}
+                              onResponderMove={[Function]}
+                              onResponderRelease={[Function]}
+                              onResponderTerminate={[Function]}
+                              onResponderTerminationRequest={[Function]}
+                              onStartShouldSetResponder={[Function]}
+                              style={
+                                Object {
+                                  "backgroundColor": "#FFF",
+                                  "borderRadius": 4,
+                                  "elevation": 5,
+                                  "flexDirection": "row",
+                                  "justifyContent": "space-between",
+                                  "marginTop": 15,
+                                  "opacity": 1,
+                                  "padding": 10,
+                                  "shadowColor": "#000",
+                                  "shadowOffset": Object {
+                                    "height": 1,
+                                    "width": 0,
+                                  },
+                                  "shadowOpacity": 0.8,
+                                  "shadowRadius": 1,
+                                  "width": 700,
+                                }
+                              }
+                            >
+                              <View
+                                style={
+                                  Object {
+                                    "height": 60,
+                                    "overflow": "hidden",
+                                    "width": 220,
+                                  }
+                                }
+                              >
+                                <View
+                                  style={
+                                    Object {
+                                      "flexDirection": "row",
+                                    }
+                                  }
+                                >
+                                  <Text
+                                    style={
+                                      Object {
+                                        "color": "black",
+                                        "fontSize": 15,
+                                        "fontWeight": "bold",
+                                      }
+                                    }
+                                  >
+                                    Title: 
+                                  </Text>
+                                  <Text
+                                    style={
+                                      Object {
+                                        "color": "black",
+                                        "fontSize": 15,
+                                      }
+                                    }
+                                  >
+                                    Leviathan Wakes
+                                  </Text>
+                                </View>
+                                <View
+                                  style={
+                                    Object {
+                                      "flexDirection": "row",
+                                    }
+                                  }
+                                >
+                                  <Text
+                                    style={
+                                      Object {
+                                        "color": "black",
+                                        "fontSize": 15,
+                                        "fontWeight": "bold",
+                                      }
+                                    }
+                                  >
+                                    Author: 
+                                  </Text>
+                                  <Text
+                                    style={
+                                      Object {
+                                        "color": "black",
+                                        "fontSize": 15,
+                                      }
+                                    }
+                                  >
+                                    Terry McDonough
+                                  </Text>
+                                </View>
+                                <View
+                                  style={
+                                    Object {
+                                      "flexDirection": "row",
+                                    }
+                                  }
+                                >
+                                  <Text
+                                    style={
+                                      Object {
+                                        "color": "black",
+                                        "fontSize": 15,
+                                        "fontWeight": "bold",
+                                      }
+                                    }
+                                  >
+                                    Summary: 
+                                  </Text>
+                                  <Text
+                                    style={
+                                      Object {
+                                        "color": "black",
+                                        "fontSize": 15,
+                                      }
+                                    }
+                                  >
+                                     Requieque et Sa
+                                    ...
+                                  </Text>
+                                </View>
+                              </View>
+                              <View
+                                style={
+                                  Object {
+                                    "alignItems": "flex-end",
+                                  }
+                                }
+                              >
+                                <Text
+                                  style={
+                                    Object {
+                                      "color": "black",
+                                      "fontSize": 15,
+                                    }
+                                  }
+                                >
+                                  2016-02-02
+                                </Text>
+                                <Text
+                                  style={
+                                    Object {
+                                      "color": "black",
+                                      "fontSize": 15,
+                                    }
+                                  }
+                                >
+                                  20:18
+                                </Text>
+                              </View>
+                            </View>
+                            <View
+                              accessible={true}
+                              focusable={true}
+                              isTVSelectable={true}
+                              onClick={[Function]}
+                              onResponderGrant={[Function]}
+                              onResponderMove={[Function]}
+                              onResponderRelease={[Function]}
+                              onResponderTerminate={[Function]}
+                              onResponderTerminationRequest={[Function]}
+                              onStartShouldSetResponder={[Function]}
+                              style={
+                                Object {
+                                  "backgroundColor": "#FFF",
+                                  "borderRadius": 4,
+                                  "elevation": 5,
+                                  "flexDirection": "row",
+                                  "justifyContent": "space-between",
+                                  "marginTop": 15,
+                                  "opacity": 1,
+                                  "padding": 10,
+                                  "shadowColor": "#000",
+                                  "shadowOffset": Object {
+                                    "height": 1,
+                                    "width": 0,
+                                  },
+                                  "shadowOpacity": 0.8,
+                                  "shadowRadius": 1,
+                                  "width": 700,
+                                }
+                              }
+                            >
+                              <View
+                                style={
+                                  Object {
+                                    "height": 60,
+                                    "overflow": "hidden",
+                                    "width": 220,
+                                  }
+                                }
+                              >
+                                <View
+                                  style={
+                                    Object {
+                                      "flexDirection": "row",
+                                    }
+                                  }
+                                >
+                                  <Text
+                                    style={
+                                      Object {
+                                        "color": "black",
+                                        "fontSize": 15,
+                                        "fontWeight": "bold",
+                                      }
+                                    }
+                                  >
+                                    Title: 
+                                  </Text>
+                                  <Text
+                                    style={
+                                      Object {
+                                        "color": "black",
+                                        "fontSize": 15,
+                                      }
+                                    }
+                                  >
+                                    Critical Mass
+                                  </Text>
+                                </View>
+                                <View
+                                  style={
+                                    Object {
+                                      "flexDirection": "row",
+                                    }
+                                  }
+                                >
+                                  <Text
+                                    style={
+                                      Object {
+                                        "color": "black",
+                                        "fontSize": 15,
+                                        "fontWeight": "bold",
+                                      }
+                                    }
+                                  >
+                                    Author: 
+                                  </Text>
+                                  <Text
+                                    style={
+                                      Object {
+                                        "color": "black",
+                                        "fontSize": 15,
+                                      }
+                                    }
+                                  >
+                                    Terry McDonough
+                                  </Text>
+                                </View>
+                                <View
+                                  style={
+                                    Object {
+                                      "flexDirection": "row",
+                                    }
+                                  }
+                                >
+                                  <Text
+                                    style={
+                                      Object {
+                                        "color": "black",
+                                        "fontSize": 15,
+                                        "fontWeight": "bold",
+                                      }
+                                    }
+                                  >
+                                    Summary: 
+                                  </Text>
+                                  <Text
+                                    style={
+                                      Object {
+                                        "color": "black",
+                                        "fontSize": 15,
+                                      }
+                                    }
+                                  >
+                                     Arte quod cum O
+                                    ...
+                                  </Text>
+                                </View>
+                              </View>
+                              <View
+                                style={
+                                  Object {
+                                    "alignItems": "flex-end",
+                                  }
+                                }
+                              >
+                                <Text
+                                  style={
+                                    Object {
+                                      "color": "black",
+                                      "fontSize": 15,
+                                    }
+                                  }
+                                >
+                                  2016-02-02
+                                </Text>
+                                <Text
+                                  style={
+                                    Object {
+                                      "color": "black",
+                                      "fontSize": 15,
+                                    }
+                                  }
+                                >
+                                  20:17
+                                </Text>
+                              </View>
+                            </View>
+                            <View
+                              accessible={true}
+                              focusable={true}
+                              isTVSelectable={true}
+                              onClick={[Function]}
+                              onResponderGrant={[Function]}
+                              onResponderMove={[Function]}
+                              onResponderRelease={[Function]}
+                              onResponderTerminate={[Function]}
+                              onResponderTerminationRequest={[Function]}
+                              onStartShouldSetResponder={[Function]}
+                              style={
+                                Object {
+                                  "backgroundColor": "#FFF",
+                                  "borderRadius": 4,
+                                  "elevation": 5,
+                                  "flexDirection": "row",
+                                  "justifyContent": "space-between",
+                                  "marginTop": 15,
+                                  "opacity": 1,
+                                  "padding": 10,
+                                  "shadowColor": "#000",
+                                  "shadowOffset": Object {
+                                    "height": 1,
+                                    "width": 0,
+                                  },
+                                  "shadowOpacity": 0.8,
+                                  "shadowRadius": 1,
+                                  "width": 700,
+                                }
+                              }
+                            >
+                              <View
+                                style={
+                                  Object {
+                                    "height": 60,
+                                    "overflow": "hidden",
+                                    "width": 220,
+                                  }
+                                }
+                              >
+                                <View
+                                  style={
+                                    Object {
+                                      "flexDirection": "row",
+                                    }
+                                  }
+                                >
+                                  <Text
+                                    style={
+                                      Object {
+                                        "color": "black",
+                                        "fontSize": 15,
+                                        "fontWeight": "bold",
+                                      }
+                                    }
+                                  >
+                                    Title: 
+                                  </Text>
+                                  <Text
+                                    style={
+                                      Object {
+                                        "color": "black",
+                                        "fontSize": 15,
+                                      }
+                                    }
+                                  >
+                                    Salvage
+                                  </Text>
+                                </View>
+                                <View
+                                  style={
+                                    Object {
+                                      "flexDirection": "row",
+                                    }
+                                  }
+                                >
+                                  <Text
+                                    style={
+                                      Object {
+                                        "color": "black",
+                                        "fontSize": 15,
+                                        "fontWeight": "bold",
+                                      }
+                                    }
+                                  >
+                                    Author: 
+                                  </Text>
+                                  <Text
+                                    style={
+                                      Object {
+                                        "color": "black",
+                                        "fontSize": 15,
+                                      }
+                                    }
+                                  >
+                                    Bill Johnson
+                                  </Text>
+                                </View>
+                                <View
+                                  style={
+                                    Object {
+                                      "flexDirection": "row",
+                                    }
+                                  }
+                                >
+                                  <Text
+                                    style={
+                                      Object {
+                                        "color": "black",
+                                        "fontSize": 15,
+                                        "fontWeight": "bold",
+                                      }
+                                    }
+                                  >
+                                    Summary: 
+                                  </Text>
+                                  <Text
+                                    style={
+                                      Object {
+                                        "color": "black",
+                                        "fontSize": 15,
+                                      }
+                                    }
+                                  >
+                                     In et illo
+
+## 
+                                    ...
+                                  </Text>
+                                </View>
+                              </View>
+                              <View
+                                style={
+                                  Object {
+                                    "alignItems": "flex-end",
+                                  }
+                                }
+                              >
+                                <Text
+                                  style={
+                                    Object {
+                                      "color": "black",
+                                      "fontSize": 15,
+                                    }
+                                  }
+                                >
+                                  2016-01-26
+                                </Text>
+                                <Text
+                                  style={
+                                    Object {
+                                      "color": "black",
+                                      "fontSize": 15,
+                                    }
+                                  }
+                                >
+                                  20:17
+                                </Text>
+                              </View>
+                            </View>
+                            <View
+                              accessible={true}
+                              focusable={true}
+                              isTVSelectable={true}
+                              onClick={[Function]}
+                              onResponderGrant={[Function]}
+                              onResponderMove={[Function]}
+                              onResponderRelease={[Function]}
+                              onResponderTerminate={[Function]}
+                              onResponderTerminationRequest={[Function]}
+                              onStartShouldSetResponder={[Function]}
+                              style={
+                                Object {
+                                  "backgroundColor": "#FFF",
+                                  "borderRadius": 4,
+                                  "elevation": 5,
+                                  "flexDirection": "row",
+                                  "justifyContent": "space-between",
+                                  "marginTop": 15,
+                                  "opacity": 1,
+                                  "padding": 10,
+                                  "shadowColor": "#000",
+                                  "shadowOffset": Object {
+                                    "height": 1,
+                                    "width": 0,
+                                  },
+                                  "shadowOpacity": 0.8,
+                                  "shadowRadius": 1,
+                                  "width": 700,
+                                }
+                              }
+                            >
+                              <View
+                                style={
+                                  Object {
+                                    "height": 60,
+                                    "overflow": "hidden",
+                                    "width": 220,
+                                  }
+                                }
+                              >
+                                <View
+                                  style={
+                                    Object {
+                                      "flexDirection": "row",
+                                    }
+                                  }
+                                >
+                                  <Text
+                                    style={
+                                      Object {
+                                        "color": "black",
+                                        "fontSize": 15,
+                                        "fontWeight": "bold",
+                                      }
+                                    }
+                                  >
+                                    Title: 
+                                  </Text>
+                                  <Text
+                                    style={
+                                      Object {
+                                        "color": "black",
+                                        "fontSize": 15,
+                                      }
+                                    }
+                                  >
+                                    Windmills
+                                  </Text>
+                                </View>
+                                <View
+                                  style={
+                                    Object {
+                                      "flexDirection": "row",
+                                    }
+                                  }
+                                >
+                                  <Text
+                                    style={
+                                      Object {
+                                        "color": "black",
+                                        "fontSize": 15,
+                                        "fontWeight": "bold",
+                                      }
+                                    }
+                                  >
+                                    Author: 
+                                  </Text>
+                                  <Text
+                                    style={
+                                      Object {
+                                        "color": "black",
+                                        "fontSize": 15,
+                                      }
+                                    }
+                                  >
+                                    Bill Johnson
+                                  </Text>
+                                </View>
+                                <View
+                                  style={
+                                    Object {
+                                      "flexDirection": "row",
+                                    }
+                                  }
+                                >
+                                  <Text
+                                    style={
+                                      Object {
+                                        "color": "black",
+                                        "fontSize": 15,
+                                        "fontWeight": "bold",
+                                      }
+                                    }
+                                  >
+                                    Summary: 
+                                  </Text>
+                                  <Text
+                                    style={
+                                      Object {
+                                        "color": "black",
+                                        "fontSize": 15,
+                                      }
+                                    }
+                                  >
+                                     Pingebat sive s
+                                    ...
+                                  </Text>
+                                </View>
+                              </View>
+                              <View
+                                style={
+                                  Object {
+                                    "alignItems": "flex-end",
+                                  }
+                                }
+                              >
+                                <Text
+                                  style={
+                                    Object {
+                                      "color": "black",
+                                      "fontSize": 15,
+                                    }
+                                  }
+                                >
+                                  2016-01-19
+                                </Text>
+                                <Text
+                                  style={
+                                    Object {
+                                      "color": "black",
+                                      "fontSize": 15,
+                                    }
+                                  }
+                                >
+                                  20:17
+                                </Text>
+                              </View>
+                            </View>
+                            <View
+                              accessible={true}
+                              focusable={true}
+                              isTVSelectable={true}
+                              onClick={[Function]}
+                              onResponderGrant={[Function]}
+                              onResponderMove={[Function]}
+                              onResponderRelease={[Function]}
+                              onResponderTerminate={[Function]}
+                              onResponderTerminationRequest={[Function]}
+                              onStartShouldSetResponder={[Function]}
+                              style={
+                                Object {
+                                  "backgroundColor": "#FFF",
+                                  "borderRadius": 4,
+                                  "elevation": 5,
+                                  "flexDirection": "row",
+                                  "justifyContent": "space-between",
+                                  "marginTop": 15,
+                                  "opacity": 1,
+                                  "padding": 10,
+                                  "shadowColor": "#000",
+                                  "shadowOffset": Object {
+                                    "height": 1,
+                                    "width": 0,
+                                  },
+                                  "shadowOpacity": 0.8,
+                                  "shadowRadius": 1,
+                                  "width": 700,
+                                }
+                              }
+                            >
+                              <View
+                                style={
+                                  Object {
+                                    "height": 60,
+                                    "overflow": "hidden",
+                                    "width": 220,
+                                  }
+                                }
+                              >
+                                <View
+                                  style={
+                                    Object {
+                                      "flexDirection": "row",
+                                    }
+                                  }
+                                >
+                                  <Text
+                                    style={
+                                      Object {
+                                        "color": "black",
+                                        "fontSize": 15,
+                                        "fontWeight": "bold",
+                                      }
+                                    }
+                                  >
+                                    Title: 
+                                  </Text>
+                                  <Text
+                                    style={
+                                      Object {
+                                        "color": "black",
+                                        "fontSize": 15,
+                                      }
+                                    }
+                                  >
+                                    Rock Bottom
+                                  </Text>
+                                </View>
+                                <View
+                                  style={
+                                    Object {
+                                      "flexDirection": "row",
+                                    }
+                                  }
+                                >
+                                  <Text
+                                    style={
+                                      Object {
+                                        "color": "black",
+                                        "fontSize": 15,
+                                        "fontWeight": "bold",
+                                      }
+                                    }
+                                  >
+                                    Author: 
+                                  </Text>
+                                  <Text
+                                    style={
+                                      Object {
+                                        "color": "black",
+                                        "fontSize": 15,
+                                      }
+                                    }
+                                  >
+                                    Rob Lieberman
+                                  </Text>
+                                </View>
+                                <View
+                                  style={
+                                    Object {
+                                      "flexDirection": "row",
+                                    }
+                                  }
+                                >
+                                  <Text
+                                    style={
+                                      Object {
+                                        "color": "black",
+                                        "fontSize": 15,
+                                        "fontWeight": "bold",
+                                      }
+                                    }
+                                  >
+                                    Summary: 
+                                  </Text>
+                                  <Text
+                                    style={
+                                      Object {
+                                        "color": "black",
+                                        "fontSize": 15,
+                                      }
+                                    }
+                                  >
+                                     Hoc ter enim se
+                                    ...
+                                  </Text>
+                                </View>
+                              </View>
+                              <View
+                                style={
+                                  Object {
+                                    "alignItems": "flex-end",
+                                  }
+                                }
+                              >
+                                <Text
+                                  style={
+                                    Object {
+                                      "color": "black",
+                                      "fontSize": 15,
+                                    }
+                                  }
+                                >
+                                  2016-01-12
+                                </Text>
+                                <Text
+                                  style={
+                                    Object {
+                                      "color": "black",
+                                      "fontSize": 15,
+                                    }
+                                  }
+                                >
+                                  20:17
+                                </Text>
+                              </View>
+                            </View>
+                            <View
+                              accessible={true}
+                              focusable={true}
+                              isTVSelectable={true}
+                              onClick={[Function]}
+                              onResponderGrant={[Function]}
+                              onResponderMove={[Function]}
+                              onResponderRelease={[Function]}
+                              onResponderTerminate={[Function]}
+                              onResponderTerminationRequest={[Function]}
+                              onStartShouldSetResponder={[Function]}
+                              style={
+                                Object {
+                                  "backgroundColor": "#FFF",
+                                  "borderRadius": 4,
+                                  "elevation": 5,
+                                  "flexDirection": "row",
+                                  "justifyContent": "space-between",
+                                  "marginTop": 15,
+                                  "opacity": 1,
+                                  "padding": 10,
+                                  "shadowColor": "#000",
+                                  "shadowOffset": Object {
+                                    "height": 1,
+                                    "width": 0,
+                                  },
+                                  "shadowOpacity": 0.8,
+                                  "shadowRadius": 1,
+                                  "width": 700,
+                                }
+                              }
+                            >
+                              <View
+                                style={
+                                  Object {
+                                    "height": 60,
+                                    "overflow": "hidden",
+                                    "width": 220,
+                                  }
+                                }
+                              >
+                                <View
+                                  style={
+                                    Object {
+                                      "flexDirection": "row",
+                                    }
+                                  }
+                                >
+                                  <Text
+                                    style={
+                                      Object {
+                                        "color": "black",
+                                        "fontSize": 15,
+                                        "fontWeight": "bold",
+                                      }
+                                    }
+                                  >
+                                    Title: 
+                                  </Text>
+                                  <Text
+                                    style={
+                                      Object {
+                                        "color": "black",
+                                        "fontSize": 15,
+                                      }
+                                    }
+                                  >
+                                    Back to the Butcher
+                                  </Text>
+                                </View>
+                                <View
+                                  style={
+                                    Object {
+                                      "flexDirection": "row",
+                                    }
+                                  }
+                                >
+                                  <Text
+                                    style={
+                                      Object {
+                                        "color": "black",
+                                        "fontSize": 15,
+                                        "fontWeight": "bold",
+                                      }
+                                    }
+                                  >
+                                    Author: 
+                                  </Text>
+                                  <Text
+                                    style={
+                                      Object {
+                                        "color": "black",
+                                        "fontSize": 15,
+                                      }
+                                    }
+                                  >
+                                    Rob Lieberman
+                                  </Text>
+                                </View>
+                                <View
+                                  style={
+                                    Object {
+                                      "flexDirection": "row",
+                                    }
+                                  }
+                                >
+                                  <Text
+                                    style={
+                                      Object {
+                                        "color": "black",
+                                        "fontSize": 15,
+                                        "fontWeight": "bold",
+                                      }
+                                    }
+                                  >
+                                    Summary: 
+                                  </Text>
+                                  <Text
+                                    style={
+                                      Object {
+                                        "color": "black",
+                                        "fontSize": 15,
+                                      }
+                                    }
+                                  >
+                                     Loco Delonque c
+                                    ...
+                                  </Text>
+                                </View>
+                              </View>
+                              <View
+                                style={
+                                  Object {
+                                    "alignItems": "flex-end",
+                                  }
+                                }
+                              >
+                                <Text
+                                  style={
+                                    Object {
+                                      "color": "black",
+                                      "fontSize": 15,
+                                    }
+                                  }
+                                >
+                                  2016-01-05
+                                </Text>
+                                <Text
+                                  style={
+                                    Object {
+                                      "color": "black",
+                                      "fontSize": 15,
+                                    }
+                                  }
+                                >
+                                  21:19
+                                </Text>
+                              </View>
+                            </View>
+                            <View
+                              accessible={true}
+                              focusable={true}
+                              isTVSelectable={true}
+                              onClick={[Function]}
+                              onResponderGrant={[Function]}
+                              onResponderMove={[Function]}
+                              onResponderRelease={[Function]}
+                              onResponderTerminate={[Function]}
+                              onResponderTerminationRequest={[Function]}
+                              onStartShouldSetResponder={[Function]}
+                              style={
+                                Object {
+                                  "backgroundColor": "#FFF",
+                                  "borderRadius": 4,
+                                  "elevation": 5,
+                                  "flexDirection": "row",
+                                  "justifyContent": "space-between",
+                                  "marginTop": 15,
+                                  "opacity": 1,
+                                  "padding": 10,
+                                  "shadowColor": "#000",
+                                  "shadowOffset": Object {
+                                    "height": 1,
+                                    "width": 0,
+                                  },
+                                  "shadowOpacity": 0.8,
+                                  "shadowRadius": 1,
+                                  "width": 700,
+                                }
+                              }
+                            >
+                              <View
+                                style={
+                                  Object {
+                                    "height": 60,
+                                    "overflow": "hidden",
+                                    "width": 220,
+                                  }
+                                }
+                              >
+                                <View
+                                  style={
+                                    Object {
+                                      "flexDirection": "row",
+                                    }
+                                  }
+                                >
+                                  <Text
+                                    style={
+                                      Object {
+                                        "color": "black",
+                                        "fontSize": 15,
+                                        "fontWeight": "bold",
+                                      }
+                                    }
+                                  >
+                                    Title: 
+                                  </Text>
+                                  <Text
+                                    style={
+                                      Object {
+                                        "color": "black",
+                                        "fontSize": 15,
+                                      }
+                                    }
+                                  >
+                                    CQB
+                                  </Text>
+                                </View>
+                                <View
+                                  style={
+                                    Object {
+                                      "flexDirection": "row",
+                                    }
+                                  }
+                                >
+                                  <Text
+                                    style={
+                                      Object {
+                                        "color": "black",
+                                        "fontSize": 15,
+                                        "fontWeight": "bold",
+                                      }
+                                    }
+                                  >
+                                    Author: 
+                                  </Text>
+                                  <Text
+                                    style={
+                                      Object {
+                                        "color": "black",
+                                        "fontSize": 15,
+                                      }
+                                    }
+                                  >
+                                    Jeff Woolnough
+                                  </Text>
+                                </View>
+                                <View
+                                  style={
+                                    Object {
+                                      "flexDirection": "row",
+                                    }
+                                  }
+                                >
+                                  <Text
+                                    style={
+                                      Object {
+                                        "color": "black",
+                                        "fontSize": 15,
+                                        "fontWeight": "bold",
+                                      }
+                                    }
+                                  >
+                                    Summary: 
+                                  </Text>
+                                  <Text
+                                    style={
+                                      Object {
+                                        "color": "black",
+                                        "fontSize": 15,
+                                      }
+                                    }
+                                  >
+                                     Cinnama gelido
+
+                                    ...
+                                  </Text>
+                                </View>
+                              </View>
+                              <View
+                                style={
+                                  Object {
+                                    "alignItems": "flex-end",
+                                  }
+                                }
+                              >
+                                <Text
+                                  style={
+                                    Object {
+                                      "color": "black",
+                                      "fontSize": 15,
+                                    }
+                                  }
+                                >
+                                  2015-12-29
+                                </Text>
+                                <Text
+                                  style={
+                                    Object {
+                                      "color": "black",
+                                      "fontSize": 15,
+                                    }
+                                  }
+                                >
+                                  22:37
+                                </Text>
+                              </View>
+                            </View>
+                            <View
+                              accessible={true}
+                              focusable={true}
+                              isTVSelectable={true}
+                              onClick={[Function]}
+                              onResponderGrant={[Function]}
+                              onResponderMove={[Function]}
+                              onResponderRelease={[Function]}
+                              onResponderTerminate={[Function]}
+                              onResponderTerminationRequest={[Function]}
+                              onStartShouldSetResponder={[Function]}
+                              style={
+                                Object {
+                                  "backgroundColor": "#FFF",
+                                  "borderRadius": 4,
+                                  "elevation": 5,
+                                  "flexDirection": "row",
+                                  "justifyContent": "space-between",
+                                  "marginTop": 15,
+                                  "opacity": 1,
+                                  "padding": 10,
+                                  "shadowColor": "#000",
+                                  "shadowOffset": Object {
+                                    "height": 1,
+                                    "width": 0,
+                                  },
+                                  "shadowOpacity": 0.8,
+                                  "shadowRadius": 1,
+                                  "width": 700,
+                                }
+                              }
+                            >
+                              <View
+                                style={
+                                  Object {
+                                    "height": 60,
+                                    "overflow": "hidden",
+                                    "width": 220,
+                                  }
+                                }
+                              >
+                                <View
+                                  style={
+                                    Object {
+                                      "flexDirection": "row",
+                                    }
+                                  }
+                                >
+                                  <Text
+                                    style={
+                                      Object {
+                                        "color": "black",
+                                        "fontSize": 15,
+                                        "fontWeight": "bold",
+                                      }
+                                    }
+                                  >
+                                    Title: 
+                                  </Text>
+                                  <Text
+                                    style={
+                                      Object {
+                                        "color": "black",
+                                        "fontSize": 15,
+                                      }
+                                    }
+                                  >
+                                    Remember the Cant
+                                  </Text>
+                                </View>
+                                <View
+                                  style={
+                                    Object {
+                                      "flexDirection": "row",
+                                    }
+                                  }
+                                >
+                                  <Text
+                                    style={
+                                      Object {
+                                        "color": "black",
+                                        "fontSize": 15,
+                                        "fontWeight": "bold",
+                                      }
+                                    }
+                                  >
+                                    Author: 
+                                  </Text>
+                                  <Text
+                                    style={
+                                      Object {
+                                        "color": "black",
+                                        "fontSize": 15,
+                                      }
+                                    }
+                                  >
+                                    Jeff Woolnough
+                                  </Text>
+                                </View>
+                                <View
+                                  style={
+                                    Object {
+                                      "flexDirection": "row",
+                                    }
+                                  }
+                                >
+                                  <Text
+                                    style={
+                                      Object {
+                                        "color": "black",
+                                        "fontSize": 15,
+                                        "fontWeight": "bold",
+                                      }
+                                    }
+                                  >
+                                    Summary: 
+                                  </Text>
+                                  <Text
+                                    style={
+                                      Object {
+                                        "color": "black",
+                                        "fontSize": 15,
+                                      }
+                                    }
+                                  >
+                                     Cuique scilicet
+                                    ...
+                                  </Text>
+                                </View>
+                              </View>
+                              <View
+                                style={
+                                  Object {
+                                    "alignItems": "flex-end",
+                                  }
+                                }
+                              >
+                                <Text
+                                  style={
+                                    Object {
+                                      "color": "black",
+                                      "fontSize": 15,
+                                    }
+                                  }
+                                >
+                                  2015-12-22
+                                </Text>
+                                <Text
+                                  style={
+                                    Object {
+                                      "color": "black",
+                                      "fontSize": 15,
+                                    }
+                                  }
+                                >
+                                  21:27
+                                </Text>
+                              </View>
+                            </View>
+                            <View
+                              accessible={true}
+                              focusable={true}
+                              isTVSelectable={true}
+                              onClick={[Function]}
+                              onResponderGrant={[Function]}
+                              onResponderMove={[Function]}
+                              onResponderRelease={[Function]}
+                              onResponderTerminate={[Function]}
+                              onResponderTerminationRequest={[Function]}
+                              onStartShouldSetResponder={[Function]}
+                              style={
+                                Object {
+                                  "backgroundColor": "#FFF",
+                                  "borderRadius": 4,
+                                  "elevation": 5,
+                                  "flexDirection": "row",
+                                  "justifyContent": "space-between",
+                                  "marginTop": 15,
+                                  "opacity": 1,
+                                  "padding": 10,
+                                  "shadowColor": "#000",
+                                  "shadowOffset": Object {
+                                    "height": 1,
+                                    "width": 0,
+                                  },
+                                  "shadowOpacity": 0.8,
+                                  "shadowRadius": 1,
+                                  "width": 700,
+                                }
+                              }
+                            >
+                              <View
+                                style={
+                                  Object {
+                                    "height": 60,
+                                    "overflow": "hidden",
+                                    "width": 220,
+                                  }
+                                }
+                              >
+                                <View
+                                  style={
+                                    Object {
+                                      "flexDirection": "row",
+                                    }
+                                  }
+                                >
+                                  <Text
+                                    style={
+                                      Object {
+                                        "color": "black",
+                                        "fontSize": 15,
+                                        "fontWeight": "bold",
+                                      }
+                                    }
+                                  >
+                                    Title: 
+                                  </Text>
+                                  <Text
+                                    style={
+                                      Object {
+                                        "color": "black",
+                                        "fontSize": 15,
+                                      }
+                                    }
+                                  >
+                                    The Big Empty
+                                  </Text>
+                                </View>
+                                <View
+                                  style={
+                                    Object {
+                                      "flexDirection": "row",
+                                    }
+                                  }
+                                >
+                                  <Text
+                                    style={
+                                      Object {
+                                        "color": "black",
+                                        "fontSize": 15,
+                                        "fontWeight": "bold",
+                                      }
+                                    }
+                                  >
+                                    Author: 
+                                  </Text>
+                                  <Text
+                                    style={
+                                      Object {
+                                        "color": "black",
+                                        "fontSize": 15,
+                                      }
+                                    }
+                                  >
+                                    Terry McDonough
+                                  </Text>
+                                </View>
+                                <View
+                                  style={
+                                    Object {
+                                      "flexDirection": "row",
+                                    }
+                                  }
+                                >
+                                  <Text
+                                    style={
+                                      Object {
+                                        "color": "black",
+                                        "fontSize": 15,
+                                        "fontWeight": "bold",
+                                      }
+                                    }
+                                  >
+                                    Summary: 
+                                  </Text>
+                                  <Text
+                                    style={
+                                      Object {
+                                        "color": "black",
+                                        "fontSize": 15,
+                                      }
+                                    }
+                                  >
+                                     Famemque horres
+                                    ...
+                                  </Text>
+                                </View>
+                              </View>
+                              <View
+                                style={
+                                  Object {
+                                    "alignItems": "flex-end",
+                                  }
+                                }
+                              >
+                                <Text
+                                  style={
+                                    Object {
+                                      "color": "black",
+                                      "fontSize": 15,
+                                    }
+                                  }
+                                >
+                                  2015-12-15
+                                </Text>
+                                <Text
+                                  style={
+                                    Object {
+                                      "color": "black",
+                                      "fontSize": 15,
+                                    }
+                                  }
+                                >
+                                  22:17
+                                </Text>
+                              </View>
+                            </View>
+                            <View
+                              accessible={true}
+                              focusable={true}
+                              isTVSelectable={true}
+                              onClick={[Function]}
+                              onResponderGrant={[Function]}
+                              onResponderMove={[Function]}
+                              onResponderRelease={[Function]}
+                              onResponderTerminate={[Function]}
+                              onResponderTerminationRequest={[Function]}
+                              onStartShouldSetResponder={[Function]}
+                              style={
+                                Object {
+                                  "backgroundColor": "#FFF",
+                                  "borderRadius": 4,
+                                  "elevation": 5,
+                                  "flexDirection": "row",
+                                  "justifyContent": "space-between",
+                                  "marginTop": 15,
+                                  "opacity": 1,
+                                  "padding": 10,
+                                  "shadowColor": "#000",
+                                  "shadowOffset": Object {
+                                    "height": 1,
+                                    "width": 0,
+                                  },
+                                  "shadowOpacity": 0.8,
+                                  "shadowRadius": 1,
+                                  "width": 700,
+                                }
+                              }
+                            >
+                              <View
+                                style={
+                                  Object {
+                                    "height": 60,
+                                    "overflow": "hidden",
+                                    "width": 220,
+                                  }
+                                }
+                              >
+                                <View
+                                  style={
+                                    Object {
+                                      "flexDirection": "row",
+                                    }
+                                  }
+                                >
+                                  <Text
+                                    style={
+                                      Object {
+                                        "color": "black",
+                                        "fontSize": 15,
+                                        "fontWeight": "bold",
+                                      }
+                                    }
+                                  >
+                                    Title: 
+                                  </Text>
+                                  <Text
+                                    style={
+                                      Object {
+                                        "color": "black",
+                                        "fontSize": 15,
+                                      }
+                                    }
+                                  >
+                                    Dulcinea
+                                  </Text>
+                                </View>
+                                <View
+                                  style={
+                                    Object {
+                                      "flexDirection": "row",
+                                    }
+                                  }
+                                >
+                                  <Text
+                                    style={
+                                      Object {
+                                        "color": "black",
+                                        "fontSize": 15,
+                                        "fontWeight": "bold",
+                                      }
+                                    }
+                                  >
+                                    Author: 
+                                  </Text>
+                                  <Text
+                                    style={
+                                      Object {
+                                        "color": "black",
+                                        "fontSize": 15,
+                                      }
+                                    }
+                                  >
+                                    Terry McDonough
+                                  </Text>
+                                </View>
+                                <View
+                                  style={
+                                    Object {
+                                      "flexDirection": "row",
+                                    }
+                                  }
+                                >
+                                  <Text
+                                    style={
+                                      Object {
+                                        "color": "black",
+                                        "fontSize": 15,
+                                        "fontWeight": "bold",
+                                      }
+                                    }
+                                  >
+                                    Summary: 
+                                  </Text>
+                                  <Text
+                                    style={
+                                      Object {
+                                        "color": "black",
+                                        "fontSize": 15,
+                                      }
+                                    }
+                                  >
+                                     Omnibus quae
+
+#
+                                    ...
+                                  </Text>
+                                </View>
+                              </View>
+                              <View
+                                style={
+                                  Object {
+                                    "alignItems": "flex-end",
+                                  }
+                                }
+                              >
+                                <Text
+                                  style={
+                                    Object {
+                                      "color": "black",
+                                      "fontSize": 15,
+                                    }
+                                  }
+                                >
+                                  2015-12-14
+                                </Text>
+                                <Text
+                                  style={
+                                    Object {
+                                      "color": "black",
+                                      "fontSize": 15,
+                                    }
+                                  }
+                                >
+                                  21:09
+                                </Text>
+                              </View>
+                            </View>
+                          </View>
+                        </RCTScrollView>
+                      </View>
+                    </View>
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </RNCSafeAreaView>
+</View>
+`;

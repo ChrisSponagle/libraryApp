@@ -10,10 +10,18 @@
     "prettier": "prettier --config .prettierrc.json --list-different 'src/**/*.{js,ts,jsx,tsx,svg}'",
     "prettier-write": "prettier --config .prettierrc.json --write 'src/**/*.{js,ts,jsx,tsx,svg}'"
   },
+  "jest": {
+    "preset": "jest-expo",
+    "transformIgnorePatterns": [
+      "node_modules/(?!(jest-)?react-native|react-clone-referenced-element|@react-native-community|expo(nent)?|@expo(nent)?/.*|react-navigation|@react-navigation/.*|@unimodules/.*|unimodules|sentry-expo|native-base|@sentry/.*)"
+    ]
+  },
   "dependencies": {
     "@react-native-community/masked-view": "^0.1.10",
+    "babel-jest": "^25.4.0",
     "expo": "~37.0.3",
     "expo-linear-gradient": "~8.1.0",
+    "jest-fetch-mock": "^3.0.3",
     "react": "~16.9.0",
     "react-dom": "~16.9.0",
     "react-native": "https://github.com/expo/react-native/archive/sdk-37.0.1.tar.gz",
@@ -27,8 +35,14 @@
   },
   "devDependencies": {
     "@babel/core": "^7.8.6",
+    "@types/jest": "^25.2.1",
+    "@types/react": "~16.9.23",
+    "@types/react-native": "~0.61.17",
+    "@types/react-test-renderer": "^16.9.2",
     "babel-preset-expo": "~8.1.0",
+    "fetch-mock": "^9.4.0",
     "jest": "^25.4.0",
+    "jest-expo": "^37.0.0",
     "prettier": "2.0.5"
   },
   "private": true
