@@ -1,20 +1,20 @@
 import React, { Component } from 'react';
-import { View, Text, StyleSheet, Dimensions, TouchableOpacity } from 'react-native';
+import { View, Text, StyleSheet, Dimensions, TouchableOpacity, Image } from 'react-native';
 import { LinearGradient } from 'expo-linear-gradient';
 import Header from './Header';
 
 function DetailedInfo(props) {
-
+    const { item } = props.navigation.state.params
     return (
         <View style={styles.container}>
-            <TouchableOpacity style={styles.backArrowContainer}>
-                <Image style={styles.backArrowImg} source={require('../asset/images/backArrow.png')}/>
+            <TouchableOpacity style={styles.backArrowContainer} onPress={() => props.navigation.goBack() }>
+                <Image style={styles.backArrowImg} source={require('../assets/images/backArrow.png')}/>
             </TouchableOpacity>
             <Header type={'detailed'}/>
             <View style={styles.detailedInfoContainer}>
-                <Text style={styles.title}>{props.item.title}</Text>
-                <Text style={styles.author}>{props.item.author.name}</Text>
-                <Text style={styles.body}>{props.item.body}</Text>
+                <Text style={styles.title}>{item.title}</Text>
+                <Text style={styles.author}>{item.author.name}</Text>
+                <Text style={styles.body}>{item.body}</Text>
             </View>
         </View>
     )
@@ -49,3 +49,5 @@ const styles = StyleSheet.create({
         color: '#000000'
     }
   });
+
+  export default DetailedInfo;

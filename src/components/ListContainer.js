@@ -51,7 +51,7 @@ export default class ListContainer extends Component {
     renderBooks = (bookData) => {
         return bookData.map((item, index) => {
             return (
-             <ItemList key={index} item={item} />
+             <ItemList key={index} item={item} navigation={this.props.navigation} />
             )
         })
     }
