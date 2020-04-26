@@ -9,9 +9,18 @@ import { View, Text, StyleSheet, Dimensions, TouchableOpacity } from 'react-nati
             onPress={() => props.navigation.navigate('DetailedInfo', { item: props.item } )}
             >
                 <View style={styles.itemContainer}>
-                    <Text style={styles.listItem}>Title: {props.item.title}</Text>
-                    <Text style={styles.listItem}>Author: {props.item.author.name}</Text>
-                    <Text style={styles.listItem}>Summary: {props.item.body.substring(1, 25).substring(-1, 25)}...</Text>
+                    <View style={styles.listView}>
+                        <Text style={styles.listTitle}>Title: </Text>
+                        <Text style={styles.listItem}>{props.item.title}</Text>
+                    </View>
+                    <View style={styles.listView}>
+                        <Text style={styles.listTitle}>Author: </Text>
+                        <Text style={styles.listItem}>{props.item.author.name}</Text>
+                    </View>
+                    <View style={styles.listView}>
+                        <Text style={styles.listTitle}>Summary: </Text>
+                        <Text style={styles.listItem}>{props.item.body.substring(1, 18).substring(-1, 16)}...</Text>
+                    </View>
                 </View>
                 <View style={styles.timeContainer}>
                     <Text style={styles.listItem}>{time[0]}</Text>
@@ -32,15 +41,24 @@ const styles = StyleSheet.create({
         backgroundColor: '#FFF',
         justifyContent: 'space-between',
         borderRadius: 4,
-        elevation: 5,
-        shadowColor: '#000',
+        elevation: 5, //For Android
+        shadowColor: '#000', //For iOS
         shadowOffset: { width: 0, height: 1 },
         shadowOpacity: 0.8,
         shadowRadius: 1
     },
     itemContainer: {
         height: 60,
+        width: 220,
         overflow: 'hidden'
+    },
+    listView: {
+        flexDirection: 'row'
+    },
+    listTitle: {
+        fontSize: 15, 
+        color: 'black',
+        fontWeight: 'bold'
     },
     listItem: {
         fontSize: 15, 

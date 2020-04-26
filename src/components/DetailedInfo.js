@@ -46,7 +46,7 @@ const styles = StyleSheet.create({
     backArrowContainer: {
       position: 'absolute',
       left: 10,
-      top: 50,
+      top: 40,
       height: 50,
       alignItems: 'center',
       justifyContent: 'center',
@@ -54,20 +54,20 @@ const styles = StyleSheet.create({
       
     },
     backArrowImg: {
-      width: 50,
-      height: 50
+      width: 30,
+      height: 30
     },
     detailedInfoContainer: {
         width: screenWidth - 50,
-        height: 500,
+        height: screenHeight/1.6,
         padding: 15,
         marginBottom: 100,
         backgroundColor: '#FFF',
         alignItems: 'center',
         borderRadius: 4,
         marginTop: 30,
-        elevation: 5,
-        shadowColor: '#000',
+        elevation: 5, //For Android 
+        shadowColor: '#000', //For iOS
         shadowOffset: { width: 0, height: 1 },
         shadowOpacity: 0.8,
         shadowRadius: 1

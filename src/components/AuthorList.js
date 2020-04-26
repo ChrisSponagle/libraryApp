@@ -55,7 +55,7 @@ const styles = StyleSheet.create({
         margin: 5
     },
     listItem: {
-        fontSize: 20, 
+        fontSize: 15, 
         color: '#FFF'
     }
 })

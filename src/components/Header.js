@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, Text, StyleSheet, Dimensions, Image } from 'react-native'
+import { View, Text, StyleSheet, Dimensions, Image, Platform } from 'react-native'
 
 function Header(props) {
   
@@ -12,24 +12,25 @@ function Header(props) {
 }
 
 const screenWidth = Math.round(Dimensions.get('window').width);
+const screenHeight = Math.round(Dimensions.get('window').width);
 
 const styles = StyleSheet.create({
     headerMainContainer: {
       backgroundColor: '#059BFF',
       alignItems: 'center',
-      height: 200,
+      height: 160,
       width: screenWidth,
-      padding: 15
+      paddingTop: Platform.OS === 'android' ? 10 : 15,
     },
     headerDetailedInfo: {
         alignItems: 'center',
-        height: 200,
+        height: 160,
         width: screenWidth,
         padding: 15
     },
     headerLogo: {
-        height: 130,
-        width: 130
+        height: 100,
+        width: 100
     },
     headerFont: {
         fontSize: 30,

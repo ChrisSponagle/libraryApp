@@ -85,8 +85,8 @@ const styles = StyleSheet.create({
         justifyContent: 'space-evenly',
         padding: 10,
         borderBottomWidth: 1,
-        elevation: 5,
-        shadowColor: '#000',
+        elevation: 5, //For Android
+        shadowColor: '#000', //For iOS
         shadowOffset: { width: 0, height: 1 },
         shadowOpacity: 0.8,
         shadowRadius: 1
